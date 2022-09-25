@@ -2,16 +2,15 @@ SplineFontDB: 3.2
 FontName: TengwarArtano
 FullName: Tengwar Artano
 FamilyName: Tengwar Artano
-Weight: Book
-Copyright: Shankar Sivarajan\nBased on glyphs by Johan Winge.
-Version: 0.1
+Weight: Regular
+Copyright: Shankar Sivarajan\nBased on glyphs from Tengwar Annatar Italic, by Johan Winge.
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -250
 UnderlineWidth: 100
 Ascent: 1638
 Descent: 410
 InvalidEm: 0
-sfntRevision: 0x00014ccd
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1664140164
+ModificationTime: 1664145967
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -383,7 +382,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular"
+LangName: 1033
 GaspTable: 1 65535 2 0
 Encoding: Custom
 Compacted: 1
@@ -1752,7 +1751,7 @@ EndChar
 
 StartChar: tripledot_above
 Encoding: 62 57408 19
-AltUni2: 00e040.ffffffff.0 00e831.00fe00.0
+AltUni2: 00e831.00fe00.0 00e040.ffffffff.0
 Width: 0
 GlyphClass: 4
 AnchorPoint: "mkmk_up" -154 1239 mark 0
