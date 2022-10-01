@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1664313696
+ModificationTime: 1664642747
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -88,8 +88,13 @@ Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 s
 Lookup: 1 0 0 "Single Substitution lookup 31" { "Single Substitution lookup 31 subtable"  } []
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kernpairs" { "kernpairs subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 2 2 "kernpairs subtable"
+ 15 digit_four four
+ 51 digit_eight digit_nine digit_seven eight nine seven
+ 0 {} 0 {} 0 {} 700 {}
 ChainSub2: coverage "SarinceReplace contextual 4" 0 0 0 1
  1 0 1
   Coverage: 140 tinco parma quesse ando umbar ungwe thuule formen anto ampa nuumen malta nwalme oore vala wilya tinco_ext parma_ext ando_ext umbar_ext silme
@@ -172,21 +177,21 @@ EndFPST
 ChainSub2: coverage "WidthAdjust contextual 11" 0 0 0 1
  1 1 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
-  BCoverage: 93 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven
+  BCoverage: 104 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven four seven
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
 ChainSub2: coverage "WidthAdjust contextual 10" 0 0 0 1
  1 1 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
-  BCoverage: 595 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
+  BCoverage: 619 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve zero one two five eight tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
 ChainSub2: coverage "WidthAdjust contextual 9" 0 0 0 1
  1 1 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
-  BCoverage: 298 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
+  BCoverage: 313 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine three six nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
@@ -194,7 +199,7 @@ ChainSub2: coverage "WidthAdjust contextual 8" 0 0 0 1
  1 2 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 93 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven
+  BCoverage: 104 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven four seven
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
@@ -202,7 +207,7 @@ ChainSub2: coverage "WidthAdjust contextual 7" 0 0 0 1
  1 2 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 595 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
+  BCoverage: 619 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve zero one two five eight tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 16"
 EndFPST
@@ -210,7 +215,7 @@ ChainSub2: coverage "WidthAdjust contextual 6" 0 0 0 1
  1 2 0
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 298 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
+  BCoverage: 313 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine three six nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
@@ -219,7 +224,7 @@ ChainSub2: coverage "WidthAdjust contextual 5" 0 0 0 1
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 93 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven
+  BCoverage: 104 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven four seven
  1
   SeqLookup: 0 "Single Substitution lookup 14"
 EndFPST
@@ -228,7 +233,7 @@ ChainSub2: coverage "WidthAdjust contextual 4" 0 0 0 1
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 595 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
+  BCoverage: 619 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve zero one two five eight tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 13"
 EndFPST
@@ -237,7 +242,7 @@ ChainSub2: coverage "WidthAdjust contextual 3" 0 0 0 1
   Coverage: 126 bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 298 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
+  BCoverage: 313 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine three six nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 12"
 EndFPST
@@ -247,7 +252,7 @@ ChainSub2: coverage "WidthAdjust contextual 2" 0 0 0 1
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 93 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven
+  BCoverage: 104 hyarmen aara telco halla bombadil_hw lowdham_hw digit_four digit_seven digit_ten digit_eleven four seven
  1
   SeqLookup: 0 "Single Substitution lookup 11"
 EndFPST
@@ -257,7 +262,7 @@ ChainSub2: coverage "WidthAdjust contextual 1" 0 0 0 1
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 595 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
+  BCoverage: 619 tinco parma calma quesse thuule formen harma hwesta oore vala anna wilya tinco_ext parma_ext calma_ext quesse_ext roomen arda silme silme_nuquerna esse esse_nuquerna hwesta_sindarinwa yanta uure stemless_tinco stemless_parma stemless_calma stemless_quesse telco_ligating anna_sindarinwa anna_open christopher_qu formen_reversed tengwa_mh_beleriand vaiya harmasilme harmatinco hwestatinco digit_zero digit_one digit_two digit_five digit_eight digit_twelve zero one two five eight tinco.nofin parma.nofin quesse.nofin thuule.nofin formen.nofin oore.nofin vala.nofin wilya.nofin tinco_ext.nofin parma_ext.nofin silme.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 10"
 EndFPST
@@ -267,7 +272,7 @@ ChainSub2: coverage "WidthAdjust contextual 0" 0 0 0 1
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
   BCoverage: 1094 tripledot_above tripledot_below doubledot_above doubledot_below amatixe unutixe tecco_above tecco_below tecco_above_double tecco_below_double rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above bar_below tengwa_tilde tehta_breve tehta_grave yanta_above tripledot_above_inverted tehta_dotinside tehta_circumflex tehta_caron lsd_marker bar_above bar_below rightcurl_above rightcurl_below leftcurl_above leftcurl_below rightcurl_above_double leftcurl_above_double bar_above_narrow bar_below_narrow rightcurl_above_narrow rightcurl_below_narrow leftcurl_above_narrow leftcurl_below_narrow rightcurl_above_double_narrow leftcurl_above_double_narrow bar_above_medium bar_below_medium rightcurl_above_medium rightcurl_below_medium leftcurl_above_medium leftcurl_below_medium rightcurl_above_double_medium leftcurl_above_double_medium bar_above_wide bar_below_wide rightcurl_above_wide rightcurl_below_wide leftcurl_above_wide leftcurl_below_wide rightcurl_above_double_wide leftcurl_above_double_wide tengwa_tilde_narrow lambe_bar_below
-  BCoverage: 298 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
+  BCoverage: 313 ando umbar anga ungwe anto ampa anca unque nuumen malta noldo nwalme ando_ext umbar_ext anga_ext ungwe_ext lambe lambe.final alda tengwa_mh digit_three digit_six digit_nine three six nine ando.nofin umbar.nofin ungwe.nofin anto.nofin ampa.nofin nuumen.nofin malta.nofin nwalme.nofin ando_ext.nofin umbar_ext.nofin
  1
   SeqLookup: 0 "Single Substitution lookup 9"
 EndFPST
@@ -394,7 +399,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 289280 144640 96426 0 -1048576 96426 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "LambeBar" "'mark' Mark Positioning lookup 0-1" "Inside" "'mark' Mark Positioning lookup 0-1" "mkmk_down" "'mkmk' Mark to Mark lookup 1-1" "mkmk_up" "'mkmk' Mark to Mark lookup 1-1" "tehta_contact_up" "'mark' Mark Positioning lookup 0-1" "shook" "'mark' Mark Positioning lookup 0-1" "tehta_contact_down" "'mark' Mark Positioning lookup 0-1" "Inside"""  "TehtaBelow" "'mark' Mark Positioning lookup 0-1" "CDoubler"""  "Above"""  "TehtarPos"""  "Tehta"""  "TehtaAbove" "'mark' Mark Positioning lookup 0-1" "Tehta"""  "Anchor-0""" 
-BeginChars: 266 249
+BeginChars: 271 249
 
 StartChar: bar_above_medium
 Encoding: 158 -1 0
@@ -4273,6 +4278,7 @@ EndChar
 StartChar: digit_three
 Encoding: 106 57459 57
 Width: 2048
+Flags: W
 AnchorPoint: "tehta_contact_up" 370 700 basechar 0
 AnchorPoint: "tehta_contact_down" 470 50 basechar 0
 AnchorPoint: "shook" 2050 800 basechar 0
@@ -4358,7 +4364,7 @@ EndChar
 
 StartChar: digit_four
 Encoding: 107 57460 58
-Width: 1183
+Width: 943
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
 AnchorPoint: "tehta_contact_down" 0 -1400 basechar 0
@@ -4491,6 +4497,7 @@ EndChar
 StartChar: digit_six
 Encoding: 109 57462 60
 Width: 2048
+Flags: W
 AnchorPoint: "tehta_contact_up" 910 700 basechar 0
 AnchorPoint: "tehta_contact_down" 0 -1400 basechar 0
 AnchorPoint: "shook" 2140 800 basechar 0
@@ -4586,7 +4593,7 @@ EndChar
 
 StartChar: digit_seven
 Encoding: 110 57463 61
-Width: 963
+Width: 717
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
 AnchorPoint: "tehta_contact_down" -1230 -900 basechar 0
@@ -4721,6 +4728,7 @@ EndChar
 StartChar: digit_nine
 Encoding: 112 57465 63
 Width: 2048
+Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
 AnchorPoint: "tehta_contact_down" 840 100 basechar 0
 AnchorPoint: "shook" 1725 100 basechar 0
@@ -11220,7 +11228,7 @@ EndChar
 
 StartChar: four
 Encoding: 193 52 184
-Width: 1183
+Width: 943
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
 AnchorPoint: "tehta_contact_down" 0 -1400 basechar 0
@@ -11449,7 +11457,7 @@ EndChar
 
 StartChar: seven
 Encoding: 196 55 187
-Width: 963
+Width: 717
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
 AnchorPoint: "tehta_contact_down" -1230 -900 basechar 0
