@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1664642747
+ModificationTime: 1664643518
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -94,7 +94,7 @@ DEI: 91125
 KernClass2: 2 2 "kernpairs subtable"
  15 digit_four four
  51 digit_eight digit_nine digit_seven eight nine seven
- 0 {} 0 {} 0 {} 700 {}
+ 0 {} 0 {} 0 {} 1200 {}
 ChainSub2: coverage "SarinceReplace contextual 4" 0 0 0 1
  1 0 1
   Coverage: 140 tinco parma quesse ando umbar ungwe thuule formen anto ampa nuumen malta nwalme oore vala wilya tinco_ext parma_ext ando_ext umbar_ext silme
@@ -1754,7 +1754,7 @@ EndChar
 
 StartChar: tripledot_above
 Encoding: 62 57408 19
-AltUni2: 00e040.ffffffff.0 00e831.00fe00.0
+AltUni2: 00e831.00fe00.0 00e040.ffffffff.0
 Width: 0
 GlyphClass: 4
 AnchorPoint: "mkmk_up" 426 1839 basemark 0
@@ -4364,7 +4364,7 @@ EndChar
 
 StartChar: digit_four
 Encoding: 107 57460 58
-Width: 943
+Width: 469
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
 AnchorPoint: "tehta_contact_down" 0 -1400 basechar 0
@@ -11228,7 +11228,7 @@ EndChar
 
 StartChar: four
 Encoding: 193 52 184
-Width: 943
+Width: 469
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
 AnchorPoint: "tehta_contact_down" 0 -1400 basechar 0
