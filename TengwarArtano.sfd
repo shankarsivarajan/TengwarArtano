@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1665771657
+ModificationTime: 1669003858
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -100,13 +100,15 @@ Lookup: 1 0 0 "Single Substitution lookup 42" { "Single Substitution lookup 42 s
 Lookup: 1 0 0 "Single Substitution lookup 43" { "Single Substitution lookup 43 subtable"  } []
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kernpairs" { "kernpairs subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kernpairs" { "kernpairs subtable" [307,0,0] } ['kern' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 2 "kernpairs subtable"
+KernClass2: 3 3 "kernpairs subtable"
  15 digit_four four
+ 5 yanta
+ 11 arda roomen
  51 digit_eight digit_nine digit_seven eight nine seven
- 0 {} 0 {} 0 {} 1200 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 1200 {} 0 {} -150 {} 0 {}
 ChainSub2: coverage "SarinceNoFin contextual 4" 0 0 0 1
  1 0 1
   Coverage: 140 tinco parma quesse ando umbar ungwe thuule formen anto ampa nuumen malta nwalme oore vala wilya tinco_ext parma_ext ando_ext umbar_ext silme
@@ -456,21 +458,22 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033
 GaspTable: 1 65535 2 0
-Encoding: Custom
+Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 48 16
+WinInfo: 0 39 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 289280 144640 96426 0 -1048576 96426 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "LambeBar" "'mark' Mark Positioning lookup 0-1" "Inside" "'mark' Mark Positioning lookup 0-1" "mkmk_down" "'mkmk' Mark to Mark lookup 1-1" "mkmk_up" "'mkmk' Mark to Mark lookup 1-1" "tehta_contact_up" "'mark' Mark Positioning lookup 0-1" "shook" "'mark' Mark Positioning lookup 0-1" "tehta_contact_down" "'mark' Mark Positioning lookup 0-1" "Inside"""  "TehtaBelow" "'mark' Mark Positioning lookup 0-1" "CDoubler"""  "Above"""  "TehtarPos"""  "Tehta"""  "TehtaAbove" "'mark' Mark Positioning lookup 0-1" "Tehta"""  "Anchor-0""" 
-BeginChars: 257 257
+BeginChars: 65606 259
 
 StartChar: bar_above_medium
-Encoding: 149 -1 0
+Encoding: 65536 -1 0
 Width: 0
 Flags: W
 AnchorPoint: "mkmk_up" 458 1321 mark 0
@@ -500,11 +503,11 @@ SplineSet
  460 1589 460 1589 614 1560 c 0,34,35
  737 1537 737 1537 808 1537 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bar_below_medium
-Encoding: 150 -1 1
+Encoding: 65537 -1 1
 Width: 1
 Flags: W
 AnchorPoint: "TehtaBelow" 578 -190 mark 0
@@ -534,11 +537,11 @@ SplineSet
  518 -51 518 -51 672 -80 c 0,34,35
  795 -103 795 -103 866 -103 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 0 32 2
+Encoding: 32 32 2
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -548,7 +551,7 @@ Validated: 1
 EndChar
 
 StartChar: tinco
-Encoding: 1 57344 3
+Encoding: 57344 57344 3
 Width: 1212
 GlyphClass: 2
 Flags: W
@@ -610,7 +613,7 @@ SplineSet
  -160 662 -160 662 -168 662 c 0,88,89
  -184 662 -184 662 -184 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" tinco.nofin
 Substitution2: "Single Substitution lookup 42 subtable" tinco.nofin
 Substitution2: "Single Substitution lookup 41 subtable" tinco.nofin
@@ -619,7 +622,7 @@ Substitution2: "Single Substitution lookup 39 subtable" tinco.nofin
 EndChar
 
 StartChar: parma
-Encoding: 2 57345 4
+Encoding: 57345 57345 4
 Width: 1276
 GlyphClass: 2
 Flags: W
@@ -694,7 +697,7 @@ SplineSet
  306 178 306 178 465 187 c 0,107,108
  497 189 497 189 527 189 c 2,86,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" parma.nofin
 Substitution2: "Single Substitution lookup 42 subtable" parma.nofin
 Substitution2: "Single Substitution lookup 41 subtable" parma.nofin
@@ -703,7 +706,7 @@ Substitution2: "Single Substitution lookup 39 subtable" parma.nofin
 EndChar
 
 StartChar: calma
-Encoding: 3 57346 5
+Encoding: 57346 57346 5
 Width: 1191
 GlyphClass: 2
 Flags: W
@@ -759,11 +762,11 @@ SplineSet
  667 131 667 131 614 94 c 0,76,77
  453 -17 453 -17 326 -17 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: quesse
-Encoding: 4 57347 6
+Encoding: 57347 57347 6
 Width: 1336
 GlyphClass: 2
 Flags: W
@@ -828,7 +831,7 @@ SplineSet
  323 585 323 585 298 463 c 0,90,91
  292 433 292 433 292 403 c 0,68,69
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" quesse.nofin
 Substitution2: "Single Substitution lookup 42 subtable" quesse.nofin
 Substitution2: "Single Substitution lookup 41 subtable" quesse.nofin
@@ -837,7 +840,7 @@ Substitution2: "Single Substitution lookup 39 subtable" quesse.nofin
 EndChar
 
 StartChar: ando
-Encoding: 5 57348 7
+Encoding: 57348 57348 7
 Width: 1863
 GlyphClass: 2
 Flags: W
@@ -920,7 +923,7 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,129,130
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" ando.nofin
 Substitution2: "Single Substitution lookup 42 subtable" ando.nofin
 Substitution2: "Single Substitution lookup 41 subtable" ando.nofin
@@ -929,7 +932,7 @@ Substitution2: "Single Substitution lookup 39 subtable" ando.nofin
 EndChar
 
 StartChar: umbar
-Encoding: 6 57349 8
+Encoding: 57349 57349 8
 Width: 1936
 GlyphClass: 2
 Flags: W
@@ -1028,7 +1031,7 @@ SplineSet
  1577 267 1577 267 1604 331 c 0,142,143
  1634 399 1634 399 1634 466 c 0,122,123
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" umbar.nofin
 Substitution2: "Single Substitution lookup 42 subtable" umbar.nofin
 Substitution2: "Single Substitution lookup 41 subtable" umbar.nofin
@@ -1037,7 +1040,7 @@ Substitution2: "Single Substitution lookup 39 subtable" umbar.nofin
 EndChar
 
 StartChar: anga
-Encoding: 7 57350 9
+Encoding: 57350 57350 9
 Width: 1853
 GlyphClass: 2
 Flags: W
@@ -1116,11 +1119,11 @@ SplineSet
  1379 55 l 1,120,-1
  1427 193 l 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ungwe
-Encoding: 8 57351 10
+Encoding: 57351 57351 10
 Width: 1877
 GlyphClass: 2
 Flags: W
@@ -1205,7 +1208,7 @@ SplineSet
  1562 715 l 1,127,-1
  1226 720 l 2,108,109
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" ungwe.nofin
 Substitution2: "Single Substitution lookup 42 subtable" ungwe.nofin
 Substitution2: "Single Substitution lookup 41 subtable" ungwe.nofin
@@ -1214,7 +1217,7 @@ Substitution2: "Single Substitution lookup 39 subtable" ungwe.nofin
 EndChar
 
 StartChar: thuule
-Encoding: 9 57352 11
+Encoding: 57352 57352 11
 Width: 1163
 GlyphClass: 2
 Flags: W
@@ -1270,7 +1273,7 @@ SplineSet
  71 89 71 89 -31 14 c 0,77,78
  -72 -16 -72 -16 -99 -16 c 0,0,1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "Single Substitution lookup 43 subtable" thuule.nofin
 Substitution2: "Single Substitution lookup 42 subtable" thuule.nofin
 Substitution2: "Single Substitution lookup 41 subtable" thuule.nofin
@@ -1279,7 +1282,7 @@ Substitution2: "Single Substitution lookup 39 subtable" thuule.nofin
 EndChar
 
 StartChar: formen
-Encoding: 10 57353 12
+Encoding: 57353 57353 12
 Width: 1186
 GlyphClass: 2
 Flags: W
@@ -1346,7 +1349,7 @@ SplineSet
  187 171 l 1,92,93
  296 189 296 189 413 189 c 1,69,-1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "Single Substitution lookup 43 subtable" formen.nofin
 Substitution2: "Single Substitution lookup 42 subtable" formen.nofin
 Substitution2: "Single Substitution lookup 41 subtable" formen.nofin
@@ -1355,7 +1358,7 @@ Substitution2: "Single Substitution lookup 39 subtable" formen.nofin
 EndChar
 
 StartChar: harma
-Encoding: 11 57354 13
+Encoding: 57354 57354 13
 Width: 1169
 GlyphClass: 2
 Flags: W
@@ -1408,11 +1411,11 @@ SplineSet
  728 703 728 703 663 663 c 0,71,72
  629 642 629 642 594 642 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: hwesta
-Encoding: 12 57355 14
+Encoding: 57355 57355 14
 Width: 1196
 GlyphClass: 2
 Flags: W
@@ -1478,11 +1481,11 @@ SplineSet
  887 727 887 727 717 721 c 1,89,-1
  688 721 l 1,69,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: anto
-Encoding: 13 57356 15
+Encoding: 57356 57356 15
 Width: 1844
 GlyphClass: 2
 Flags: W
@@ -1558,7 +1561,7 @@ SplineSet
  153 97 153 97 53 18 c 0,116,117
  9 -16 9 -16 -19 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" anto.nofin
 Substitution2: "Single Substitution lookup 42 subtable" anto.nofin
 Substitution2: "Single Substitution lookup 41 subtable" anto.nofin
@@ -1567,7 +1570,7 @@ Substitution2: "Single Substitution lookup 39 subtable" anto.nofin
 EndChar
 
 StartChar: ampa
-Encoding: 14 57357 16
+Encoding: 57357 57357 16
 Width: 1895
 GlyphClass: 2
 Flags: W
@@ -1649,7 +1652,7 @@ SplineSet
  1566 268 1566 268 1582 299 c 0,116,117
  1627 379 1627 379 1627 467 c 0,94,95
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" ampa.nofin
 Substitution2: "Single Substitution lookup 42 subtable" ampa.nofin
 Substitution2: "Single Substitution lookup 41 subtable" ampa.nofin
@@ -1658,7 +1661,7 @@ Substitution2: "Single Substitution lookup 39 subtable" ampa.nofin
 EndChar
 
 StartChar: anca
-Encoding: 15 57358 17
+Encoding: 57358 57358 17
 Width: 1798
 GlyphClass: 2
 Flags: W
@@ -1734,11 +1737,11 @@ SplineSet
  1447 -16 1447 -16 1425 -16 c 0,117,118
  1410 -16 1410 -16 1410 -3 c 2,0,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: unque
-Encoding: 16 57359 18
+Encoding: 57359 57359 18
 Width: 1835
 GlyphClass: 2
 Flags: W
@@ -1817,12 +1820,12 @@ SplineSet
  1040 657 1040 657 1004 587 c 0,112,113
  955 491 955 491 955 411 c 0,91,92
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tripledot_above
-Encoding: 62 57408 19
-AltUni2: 00e040.ffffffff.0 00e831.00fe00.0
+Encoding: 57408 57408 19
+AltUni2: 00e831.00fe00.0 00e040.ffffffff.0
 Width: 0
 GlyphClass: 4
 AnchorPoint: "mkmk_up" 426 1839 basemark 0
@@ -1865,11 +1868,11 @@ SplineSet
  321 1184 321 1184 300 1183 c 5,56,57
  277 1191 277 1191 273 1214 c 5,38,39
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: nuumen
-Encoding: 17 57360 20
+Encoding: 57360 57360 20
 Width: 1840
 Flags: W
 AnchorPoint: "shook" 1280 100 basechar 0
@@ -1953,7 +1956,7 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,136,137
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" nuumen.nofin
 Substitution2: "Single Substitution lookup 42 subtable" nuumen.nofin
 Substitution2: "Single Substitution lookup 41 subtable" nuumen.nofin
@@ -1962,7 +1965,7 @@ Substitution2: "Single Substitution lookup 39 subtable" nuumen.nofin
 EndChar
 
 StartChar: malta
-Encoding: 18 57361 21
+Encoding: 57361 57361 21
 Width: 1914
 Flags: W
 AnchorPoint: "tehta_contact_up" 335 700 basechar 0
@@ -2043,7 +2046,7 @@ SplineSet
  890 191 890 191 890 189 c 1,123,-1
  891 189 l 2,100,101
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" malta.nofin
 Substitution2: "Single Substitution lookup 42 subtable" malta.nofin
 Substitution2: "Single Substitution lookup 41 subtable" malta.nofin
@@ -2052,7 +2055,7 @@ Substitution2: "Single Substitution lookup 39 subtable" malta.nofin
 EndChar
 
 StartChar: noldo
-Encoding: 19 57362 22
+Encoding: 57362 57362 22
 Width: 1857
 Flags: W
 AnchorPoint: "tehta_contact_up" 278 700 basechar 0
@@ -2128,11 +2131,11 @@ SplineSet
  1456 -16 1456 -16 1453 -4 c 0,118,119
  1451 6 1451 6 1451 64 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: nwalme
-Encoding: 20 57363 23
+Encoding: 57363 57363 23
 Width: 1968
 Flags: W
 AnchorPoint: "tehta_contact_up" 324 700 basechar 0
@@ -2210,7 +2213,7 @@ SplineSet
  1046 721 1046 721 975 562 c 0,114,115
  940 484 940 484 940 411 c 0,97,98
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" nwalme.nofin
 Substitution2: "Single Substitution lookup 42 subtable" nwalme.nofin
 Substitution2: "Single Substitution lookup 41 subtable" nwalme.nofin
@@ -2219,7 +2222,7 @@ Substitution2: "Single Substitution lookup 39 subtable" nwalme.nofin
 EndChar
 
 StartChar: oore
-Encoding: 21 57364 24
+Encoding: 57364 57364 24
 Width: 1180
 Flags: W
 AnchorPoint: "tehta_contact_up" 305 700 basechar 0
@@ -2279,7 +2282,7 @@ SplineSet
  -180 662 -180 662 -188 662 c 0,87,88
  -204 662 -204 662 -204 675 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" oore.nofin
 Substitution2: "Single Substitution lookup 42 subtable" oore.nofin
 Substitution2: "Single Substitution lookup 41 subtable" oore.nofin
@@ -2288,7 +2291,7 @@ Substitution2: "Single Substitution lookup 39 subtable" oore.nofin
 EndChar
 
 StartChar: vala
-Encoding: 22 57365 25
+Encoding: 57365 57365 25
 Width: 1253
 Flags: W
 AnchorPoint: "tehta_contact_up" 305 700 basechar 0
@@ -2358,7 +2361,7 @@ SplineSet
  281 173 l 2,101,102
  384 189 384 189 497 189 c 1,78,-1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 Substitution2: "Single Substitution lookup 43 subtable" vala.nofin
 Substitution2: "Single Substitution lookup 42 subtable" vala.nofin
 Substitution2: "Single Substitution lookup 41 subtable" vala.nofin
@@ -2367,7 +2370,7 @@ Substitution2: "Single Substitution lookup 39 subtable" vala.nofin
 EndChar
 
 StartChar: anna
-Encoding: 23 57366 26
+Encoding: 57366 57366 26
 Width: 1207
 Flags: W
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
@@ -2418,11 +2421,11 @@ SplineSet
  679 114 679 114 544 44 c 0,69,70
  430 -16 430 -16 339 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: wilya
-Encoding: 24 57367 27
+Encoding: 57367 57367 27
 Width: 1241
 Flags: W
 AnchorPoint: "tehta_contact_up" 352 700 basechar 0
@@ -2479,7 +2482,7 @@ SplineSet
  258 580 258 580 235 459 c 0,79,80
  230 431 230 431 230 403 c 0,60,61
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" wilya.nofin
 Substitution2: "Single Substitution lookup 42 subtable" wilya.nofin
 Substitution2: "Single Substitution lookup 41 subtable" wilya.nofin
@@ -2488,7 +2491,7 @@ Substitution2: "Single Substitution lookup 39 subtable" wilya.nofin
 EndChar
 
 StartChar: tinco_ext
-Encoding: 25 57368 28
+Encoding: 57368 57368 28
 Width: 1259
 Flags: W
 AnchorPoint: "tehta_contact_up" 335 700 basechar 0
@@ -2552,7 +2555,7 @@ SplineSet
  -1560 -2212 l 2,87,88
  -1610 -2254 -1610 -2254 -1642 -2254 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" tinco_ext.nofin
 Substitution2: "Single Substitution lookup 42 subtable" tinco_ext.nofin
 Substitution2: "Single Substitution lookup 41 subtable" tinco_ext.nofin
@@ -2561,7 +2564,7 @@ Substitution2: "Single Substitution lookup 39 subtable" tinco_ext.nofin
 EndChar
 
 StartChar: parma_ext
-Encoding: 26 57369 29
+Encoding: 57369 57369 29
 Width: 1302
 Flags: W
 AnchorPoint: "tehta_contact_up" 335 700 basechar 0
@@ -2643,7 +2646,7 @@ SplineSet
  182 142 l 1,111,112
  337 187 337 187 527 189 c 1,89,-1
 EndSplineSet
-Validated: 1048613
+Validated: 37
 Substitution2: "Single Substitution lookup 43 subtable" parma_ext.nofin
 Substitution2: "Single Substitution lookup 42 subtable" parma_ext.nofin
 Substitution2: "Single Substitution lookup 41 subtable" parma_ext.nofin
@@ -2652,7 +2655,7 @@ Substitution2: "Single Substitution lookup 39 subtable" parma_ext.nofin
 EndChar
 
 StartChar: calma_ext
-Encoding: 27 57370 30
+Encoding: 57370 57370 30
 Width: 1245
 Flags: W
 AnchorPoint: "tehta_contact_up" 330 700 basechar 0
@@ -2719,11 +2722,11 @@ SplineSet
  346 728 346 728 290 581 c 0,93,94
  267 519 267 519 267 446 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: quesse_ext
-Encoding: 28 57371 31
+Encoding: 57371 57371 31
 Width: 1350
 Flags: W
 AnchorPoint: "tehta_contact_up" 446 700 basechar 0
@@ -2796,11 +2799,11 @@ SplineSet
  917 311 917 311 996 513 c 1,104,-1
  1075 738 l 1,84,85
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: ando_ext
-Encoding: 29 57372 32
+Encoding: 57372 57372 32
 Width: 1804
 Flags: W
 AnchorPoint: "shook" 1210 100 basechar 0
@@ -2887,7 +2890,7 @@ SplineSet
  -1610 -2212 l 2,130,131
  -1660 -2254 -1660 -2254 -1692 -2254 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Substitution2: "Single Substitution lookup 43 subtable" ando_ext.nofin
 Substitution2: "Single Substitution lookup 42 subtable" ando_ext.nofin
 Substitution2: "Single Substitution lookup 41 subtable" ando_ext.nofin
@@ -2896,7 +2899,7 @@ Substitution2: "Single Substitution lookup 39 subtable" ando_ext.nofin
 EndChar
 
 StartChar: umbar_ext
-Encoding: 30 57373 33
+Encoding: 57373 57373 33
 Width: 1870
 Flags: W
 AnchorPoint: "tehta_contact_up" 255 700 basechar 0
@@ -3001,7 +3004,7 @@ SplineSet
  1534 325 1534 325 1542 444 c 1,155,-1
  1542 464 l 2,126,127
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" umbar_ext.nofin
 Substitution2: "Single Substitution lookup 42 subtable" umbar_ext.nofin
 Substitution2: "Single Substitution lookup 41 subtable" umbar_ext.nofin
@@ -3010,7 +3013,7 @@ Substitution2: "Single Substitution lookup 39 subtable" umbar_ext.nofin
 EndChar
 
 StartChar: anga_ext
-Encoding: 31 57374 34
+Encoding: 57374 57374 34
 Width: 1773
 Flags: W
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
@@ -3095,11 +3098,11 @@ SplineSet
  1440 707 1440 707 1378 666 c 0,130,131
  1342 642 1342 642 1305 642 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ungwe_ext
-Encoding: 32 57375 35
+Encoding: 57375 57375 35
 Width: 1883
 Flags: W
 AnchorPoint: "tehta_contact_up" 407 700 basechar 0
@@ -3191,11 +3194,11 @@ SplineSet
  1132 687 1132 687 1078 598 c 0,132,133
  1026 511 1026 511 1023 414 c 0,114,115
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: roomen
-Encoding: 33 57376 36
+Encoding: 57376 57376 36
 Width: 984
 Flags: W
 AnchorPoint: "TehtaBelow" -1 -250 basechar 0
@@ -3244,11 +3247,11 @@ SplineSet
  629 217 629 217 691 383 c 0,62,63
  747 534 747 534 747 604 c 0,50,51
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: arda
-Encoding: 34 57377 37
+Encoding: 57377 57377 37
 Width: 993
 Flags: W
 AnchorPoint: "tehta_contact_down" 0 800 basechar 0
@@ -3311,11 +3314,11 @@ SplineSet
  413 -151 413 -151 448 -91 c 2,87,-1
  463 -66 l 1,75,76
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: lambe
-Encoding: 35 57378 38
+Encoding: 57378 57378 38
 Width: 1699
 Flags: W
 AnchorPoint: "tehta_contact_up" 605 700 basechar 0
@@ -3389,7 +3392,7 @@ Substitution2: "Single Substitution lookup 1 subtable" lambe.loop
 EndChar
 
 StartChar: alda
-Encoding: 36 57379 39
+Encoding: 57379 57379 39
 Width: 1629
 Flags: W
 AnchorPoint: "tehta_contact_up" 465 700 basechar 0
@@ -3461,7 +3464,7 @@ Validated: 1
 EndChar
 
 StartChar: tecco_below
-Encoding: 69 57415 40
+Encoding: 57415 57415 40
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3484,11 +3487,11 @@ SplineSet
  164 -802 164 -802 104 -862 c 4,18,19
  81 -884 81 -884 56 -884 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: hyarmen
-Encoding: 41 57384 41
+Encoding: 57384 57384 41
 Width: 1185
 Flags: W
 AnchorPoint: "tehta_contact_up" 525 700 basechar 0
@@ -3542,11 +3545,11 @@ SplineSet
  367 372 367 372 406 520 c 0,76,77
  423 581 423 581 423 642 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: hwesta_sindarinwa
-Encoding: 42 57385 42
+Encoding: 57385 57385 42
 Width: 1572
 Flags: W
 AnchorPoint: "tehta_contact_up" 425 700 basechar 0
@@ -3613,11 +3616,11 @@ SplineSet
  772 202 772 202 772 204 c 2,95,-1
  726 280 l 2,76,77
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: yanta
-Encoding: 43 57386 43
+Encoding: 57386 57386 43
 Width: 1278
 Flags: W
 AnchorPoint: "tehta_contact_up" 705 700 basechar 0
@@ -3667,11 +3670,11 @@ SplineSet
  149 654 149 654 140 650 c 0,68,69
  127 644 127 644 115 644 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: uure
-Encoding: 44 57387 44
+Encoding: 57387 57387 44
 Width: 941
 Flags: W
 AnchorPoint: "tehta_contact_up" 263 700 basechar 0
@@ -3707,11 +3710,11 @@ SplineSet
  287 678 287 678 265 647 c 0,40,41
  209 571 209 571 209 459 c 0,20,21
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: aara
-Encoding: 45 57388 45
+Encoding: 57388 57388 45
 Width: 500
 Flags: W
 AnchorPoint: "tehta_contact_up" -135 700 basechar 0
@@ -3751,11 +3754,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,47,48
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: halla
-Encoding: 46 57389 46
+Encoding: 57389 57389 46
 Width: 557
 Flags: W
 AnchorPoint: "tehta_contact_up" 325 700 basechar 0
@@ -3786,11 +3789,11 @@ SplineSet
  124 79 124 79 67 30 c 0,31,32
  12 -16 12 -16 -19 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: telco
-Encoding: 47 57390 47
+Encoding: 57390 57390 47
 Width: 492
 Flags: W
 AnchorPoint: "tehta_contact_up" -135 700 basechar 0
@@ -3825,11 +3828,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,39,40
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: silme
-Encoding: 37 57380 48
+Encoding: 57380 57380 48
 Width: 1125
 Flags: W
 AnchorPoint: "tehta_contact_up" 875 700 basechar 0
@@ -3875,7 +3878,7 @@ SplineSet
  524 0 524 0 468 -10 c 0,59,60
  427 -16 427 -16 384 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 43 subtable" silme.nofin
 Substitution2: "Single Substitution lookup 42 subtable" silme.nofin
 Substitution2: "Single Substitution lookup 41 subtable" silme.nofin
@@ -3884,7 +3887,7 @@ Substitution2: "Single Substitution lookup 39 subtable" silme.nofin
 EndChar
 
 StartChar: silme_nuquerna
-Encoding: 38 57381 49
+Encoding: 57381 57381 49
 Width: 1041
 Flags: W
 AnchorPoint: "tehta_contact_up" 275 700 basechar 0
@@ -3926,11 +3929,11 @@ SplineSet
  296 186 296 186 233 146 c 0,52,53
  198 124 198 124 161 124 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: esse
-Encoding: 39 57382 50
+Encoding: 57382 57382 50
 Width: 824
 Flags: W
 AnchorPoint: "tehta_contact_down" 0 -800 basechar 0
@@ -3988,11 +3991,11 @@ SplineSet
  -368 -365 -368 -365 -194 -184 c 0,84,85
  -65 -50 -65 -50 111 40 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: esse_nuquerna
-Encoding: 40 57383 51
+Encoding: 57383 57383 51
 Width: 847
 Flags: W
 AnchorPoint: "tehta_contact_up" -40 700 basechar 0
@@ -4046,11 +4049,11 @@ SplineSet
  47 734 47 734 -57 640 c 0,75,76
  -131 575 -131 575 -166 575 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: stemless_parma
-Encoding: 49 57393 52
+Encoding: 57393 57393 52
 Width: 1079
 Flags: W
 AnchorPoint: "tehta_contact_up" -95 700 basechar 0
@@ -4101,11 +4104,11 @@ SplineSet
  -206 575 -206 575 -228 575 c 0,68,69
  -244 575 -244 575 -244 588 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: stemless_calma
-Encoding: 50 57394 53
+Encoding: 57394 57394 53
 Width: 954
 Flags: W
 AnchorPoint: "tehta_contact_up" 255 700 basechar 0
@@ -4150,7 +4153,7 @@ SplineSet
  998 292 l 2,58,59
  1023 307 1023 307 1043 307 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 13 subtable" osse.tick
 Substitution2: "Single Substitution lookup 12 subtable" osse.tick
 Substitution2: "Single Substitution lookup 11 subtable" osse.tick
@@ -4160,7 +4163,7 @@ Substitution2: "Single Substitution lookup 8 subtable" osse.tick
 EndChar
 
 StartChar: telco_ligating
-Encoding: 52 57396 54
+Encoding: 57396 57396 54
 Width: 939
 Flags: W
 AnchorPoint: "tehta_contact_up" 325 700 basechar 0
@@ -4206,11 +4209,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,58,59
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_two
-Encoding: 105 57458 55
+Encoding: 57458 57458 55
 Width: 1721
 Flags: W
 AnchorPoint: "tehta_contact_up" 410 700 basechar 0
@@ -4278,11 +4281,11 @@ SplineSet
  384 625 384 625 370 489 c 0,97,98
  367 468 367 468 367 446 c 0,75,76
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_three
-Encoding: 106 57459 56
+Encoding: 57459 57459 56
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 370 700 basechar 0
@@ -4365,11 +4368,11 @@ SplineSet
  1432 676 1432 676 1468 718 c 1,125,-1
  1445 719 l 2,99,100
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_four
-Encoding: 107 57460 57
+Encoding: 57460 57460 57
 Width: 469
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
@@ -4419,11 +4422,11 @@ SplineSet
  873 -820 873 -820 908 -882 c 0,65,66
  931 -924 931 -924 931 -978 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_five
-Encoding: 108 57461 58
+Encoding: 57461 57461 58
 Width: 1663
 Flags: W
 AnchorPoint: "tehta_contact_up" 940 700 basechar 0
@@ -4497,11 +4500,11 @@ SplineSet
  833 646 833 646 896 710 c 2,101,-1
  916 731 l 1,72,73
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_six
-Encoding: 109 57462 59
+Encoding: 57462 57462 59
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 910 700 basechar 0
@@ -4594,11 +4597,11 @@ SplineSet
  1361 570 1361 570 1477 704 c 0,136,137
  1489 718 1489 718 1489 719 c 2,119,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_seven
-Encoding: 110 57463 60
+Encoding: 57463 57463 60
 Width: 717
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -4642,11 +4645,11 @@ SplineSet
  -1282 -898 -1282 -898 -1227 -880 c 0,55,56
  -1217 -877 -1217 -877 -1210 -877 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_eight
-Encoding: 111 57464 61
+Encoding: 57464 57464 61
 Width: 1333
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -4728,11 +4731,11 @@ SplineSet
  332 175 l 1,121,122
  448 196 448 196 570 196 c 2,103,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_nine
-Encoding: 112 57465 62
+Encoding: 57465 57465 62
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -4830,11 +4833,11 @@ SplineSet
  1617 301 1617 301 1638 398 c 0,148,149
  1646 430 1646 430 1646 462 c 0,126,127
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_ten
-Encoding: 113 57466 63
+Encoding: 57466 57466 63
 Width: 1146
 Flags: W
 AnchorPoint: "tehta_contact_down" 760 100 basechar 0
@@ -4881,11 +4884,11 @@ SplineSet
  787 170 787 170 806 191 c 0,60,61
  867 267 867 267 870 394 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_eleven
-Encoding: 114 57467 64
+Encoding: 57467 57467 64
 Width: 1168
 Flags: W
 AnchorPoint: "tehta_contact_down" -60 -250 basechar 0
@@ -4958,11 +4961,11 @@ SplineSet
  787 170 787 170 806 191 c 0,111,112
  867 267 867 267 870 394 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: digit_twelve
-Encoding: 115 57468 65
+Encoding: 57468 57468 65
 Width: 983
 Flags: W
 AnchorPoint: "tehta_contact_down" 177 200 basechar 0
@@ -5006,11 +5009,11 @@ SplineSet
  220 -16 220 -16 125 82 c 0,56,57
  29 182 29 182 29 327 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: doubledot_above
-Encoding: 64 57410 66
+Encoding: 57410 57410 66
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5042,13 +5045,13 @@ SplineSet
  375 1290 375 1290 372 1287 c 0,35,36
  363 1276 363 1276 351 1276 c 0,19,20
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" amatixe amatixe
 LCarets2: 1 0
 EndChar
 
 StartChar: tripledot_below
-Encoding: 63 57409 67
+Encoding: 57409 57409 67
 Width: 0
 GlyphClass: 4
 AnchorPoint: "TehtaBelow" 480 -350 mark 0
@@ -5092,11 +5095,11 @@ SplineSet
  409 -888 409 -888 368 -899 c 1,58,-1
  350 -901 l 1,39,40
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: doubledot_below
-Encoding: 65 57411 68
+Encoding: 57411 57411 68
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5127,13 +5130,13 @@ SplineSet
  448 -709 448 -709 406 -755 c 0,30,31
  388 -775 388 -775 365 -775 c 0,16,17
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" unutixe unutixe
 LCarets2: 1 0
 EndChar
 
 StartChar: bar_below
-Encoding: 79 57425 69
+Encoding: 57425 57425 69
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5164,7 +5167,7 @@ SplineSet
  420 -51 420 -51 574 -80 c 4,34,35
  697 -103 697 -103 768 -103 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" bar_below_narrow
 Substitution2: "Single Substitution lookup 31 subtable" bar_below_medium
 Substitution2: "Single Substitution lookup 30 subtable" bar_below_wide
@@ -5180,7 +5183,7 @@ Substitution2: "Single Substitution lookup 21 subtable" bar_below_wide
 EndChar
 
 StartChar: tecco_above
-Encoding: 68 57414 70
+Encoding: 57414 57414 70
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5202,11 +5205,11 @@ SplineSet
  211 1225 211 1225 86 1130 c 4,17,18
  51 1104 51 1104 42 1104 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: amatixe
-Encoding: 66 57412 71
+Encoding: 57412 57412 71
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5228,11 +5231,11 @@ SplineSet
  79 1306 l 6,17,18
  61 1277 61 1277 45 1276 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above
-Encoding: 74 57420 72
+Encoding: 57420 57420 72
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5272,7 +5275,7 @@ SplineSet
  726 1492 726 1492 690 1555 c 0,52,53
  670 1590 670 1590 670 1631 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" leftcurl_above_narrow
 Substitution2: "Single Substitution lookup 31 subtable" leftcurl_above_medium
 Substitution2: "Single Substitution lookup 30 subtable" leftcurl_above_wide
@@ -5292,7 +5295,7 @@ Substitution2: "Single Substitution lookup 16 subtable" leftcurl_above_narrow
 EndChar
 
 StartChar: bar_above
-Encoding: 78 57424 73
+Encoding: 57424 57424 73
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5323,7 +5326,7 @@ SplineSet
  400 1589 400 1589 554 1560 c 0,34,35
  677 1537 677 1537 748 1537 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" bar_above_narrow
 Substitution2: "Single Substitution lookup 31 subtable" bar_above_medium
 Substitution2: "Single Substitution lookup 30 subtable" bar_above_wide
@@ -5339,7 +5342,7 @@ Substitution2: "Single Substitution lookup 21 subtable" bar_above_wide
 EndChar
 
 StartChar: rightcurl_above
-Encoding: 72 57418 74
+Encoding: 57418 57418 74
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5384,7 +5387,7 @@ SplineSet
  66 753 66 753 61 750 c 4,59,60
  43 741 43 741 34 741 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" rightcurl_above_narrow
 Substitution2: "Single Substitution lookup 31 subtable" rightcurl_above_medium
 Substitution2: "Single Substitution lookup 30 subtable" rightcurl_above_wide
@@ -5404,7 +5407,7 @@ Substitution2: "Single Substitution lookup 16 subtable" rightcurl_above_narrow
 EndChar
 
 StartChar: rightcurl_below
-Encoding: 73 57419 75
+Encoding: 57419 57419 75
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5444,7 +5447,7 @@ SplineSet
  457 -1180 457 -1180 342 -1212 c 0,52,53
  304 -1222 304 -1222 268 -1222 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" rightcurl_below_narrow
 Substitution2: "Single Substitution lookup 31 subtable" rightcurl_below_medium
 Substitution2: "Single Substitution lookup 30 subtable" rightcurl_below_wide
@@ -5460,7 +5463,7 @@ Substitution2: "Single Substitution lookup 21 subtable" rightcurl_below_wide
 EndChar
 
 StartChar: unutixe
-Encoding: 67 57413 76
+Encoding: 57413 57413 76
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5480,11 +5483,11 @@ SplineSet
  142 -709 142 -709 100 -756 c 4,13,14
  82 -775 82 -775 60 -775 c 4,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tengwa_mh
-Encoding: 58 57402 77
+Encoding: 57402 57402 77
 Width: 1929
 Flags: W
 AnchorPoint: "tehta_contact_up" 310 700 basechar 0
@@ -5582,11 +5585,11 @@ SplineSet
  948 253 948 253 888 188 c 1,154,155
  930 193 930 193 1078 193 c 0,129,130
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tengwa_exclamation
-Encoding: 96 57445 78
+Encoding: 57445 57445 78
 Width: 830
 Flags: W
 LayerCount: 2
@@ -5617,7 +5620,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_question
-Encoding: 97 57446 79
+Encoding: 57446 57446 79
 Width: 1376
 Flags: W
 LayerCount: 2
@@ -5697,7 +5700,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_parenthesis
-Encoding: 98 57447 80
+Encoding: 57447 57447 80
 Width: 1009
 Flags: W
 LayerCount: 2
@@ -5752,7 +5755,7 @@ Validated: 33
 EndChar
 
 StartChar: tengwa_section
-Encoding: 99 57448 81
+Encoding: 57448 57448 81
 Width: 1154
 Flags: W
 LayerCount: 2
@@ -5782,7 +5785,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_section_double
-Encoding: 100 57449 82
+Encoding: 57449 57449 82
 Width: 893
 Flags: W
 LayerCount: 2
@@ -5829,7 +5832,7 @@ Validated: 1
 EndChar
 
 StartChar: pusta
-Encoding: 91 57440 83
+Encoding: 57440 57440 83
 Width: 512
 Flags: W
 LayerCount: 2
@@ -5849,7 +5852,7 @@ Validated: 1
 EndChar
 
 StartChar: pusta_double
-Encoding: 92 57441 84
+Encoding: 57441 57441 84
 Width: 581
 Flags: W
 LayerCount: 2
@@ -5878,7 +5881,7 @@ Validated: 1
 EndChar
 
 StartChar: pusta_triple
-Encoding: 93 57442 85
+Encoding: 57442 57442 85
 Width: 536
 Flags: W
 LayerCount: 2
@@ -5916,7 +5919,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_section_small
-Encoding: 125 -1 86
+Encoding: 65538 -1 86
 Width: 1154
 Flags: W
 LayerCount: 2
@@ -5946,7 +5949,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_tilde
-Encoding: 80 57426 87
+Encoding: 57426 57426 87
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5996,7 +5999,7 @@ SplineSet
  127 1172 127 1172 780 1569 c 1,69,-1
  840 1605 l 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 19 subtable" tengwa_tilde_narrow
 Substitution2: "Single Substitution lookup 18 subtable" tengwa_tilde_narrow
 Substitution2: "Single Substitution lookup 17 subtable" tengwa_tilde_narrow
@@ -6004,7 +6007,7 @@ Substitution2: "Single Substitution lookup 16 subtable" tengwa_tilde_narrow
 EndChar
 
 StartChar: tehta_breve
-Encoding: 81 57427 88
+Encoding: 57427 57427 88
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6032,11 +6035,11 @@ SplineSet
  132 1542 132 1542 150 1542 c 0,28,29
  161 1542 161 1542 162 1535 c 2,0,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: yanta_above
-Encoding: 83 57429 89
+Encoding: 57429 57429 89
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6082,11 +6085,11 @@ SplineSet
  516 1862 516 1862 538 1754 c 0,64,65
  543 1729 543 1729 543 1698 c 2,0,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tripledot_above_inverted
-Encoding: 84 57430 90
+Encoding: 57430 57430 90
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6131,11 +6134,11 @@ SplineSet
  305 1165 305 1165 265 1156 c 0,57,58
  259 1155 259 1155 252 1154 c 0,38,39
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: thinnas
-Encoding: 85 57431 91
+Encoding: 57431 57431 91
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6160,13 +6163,13 @@ SplineSet
  -1504 -1321 -1504 -1321 -1254 -999 c 0,22,23
  -984 -651 -984 -651 -722 -197 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" zwj aara
 LCarets2: 1 0
 EndChar
 
 StartChar: sarince_end
-Encoding: 86 57432 92
+Encoding: 57432 57432 92
 Width: 1192
 GlyphClass: 2
 Flags: W
@@ -6209,11 +6212,11 @@ SplineSet
  561 6 561 6 158 22 c 0,54,55
  50 26 50 26 -14 26 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: sarince_combine
-Encoding: 87 57433 93
+Encoding: 57433 57433 93
 Width: -4
 GlyphClass: 4
 Flags: W
@@ -6245,11 +6248,11 @@ SplineSet
  319 -880 319 -880 218 -916 c 0,36,37
  181 -930 181 -930 153 -930 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tehta_dotinside
-Encoding: 88 57434 94
+Encoding: 57434 57434 94
 Width: 512
 Flags: W
 AnchorPoint: "Inside" 260 435 mark 0
@@ -6270,7 +6273,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_quotation_up
-Encoding: 101 57450 95
+Encoding: 57450 57450 95
 Width: 743
 Flags: W
 LayerCount: 2
@@ -6307,7 +6310,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_quotation_down
-Encoding: 102 57451 96
+Encoding: 57451 57451 96
 Width: 412
 Flags: W
 LayerCount: 2
@@ -6344,7 +6347,7 @@ Validated: 1
 EndChar
 
 StartChar: leftcurl_below
-Encoding: 75 57421 97
+Encoding: 57421 57421 97
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6387,7 +6390,7 @@ SplineSet
  233 -761 233 -761 223 -783 c 0,58,59
  204 -824 204 -824 202 -876 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" leftcurl_below_narrow
 Substitution2: "Single Substitution lookup 31 subtable" leftcurl_below_medium
 Substitution2: "Single Substitution lookup 30 subtable" leftcurl_below_wide
@@ -6403,7 +6406,7 @@ Substitution2: "Single Substitution lookup 21 subtable" leftcurl_below_wide
 EndChar
 
 StartChar: bar_above_wide
-Encoding: 134 -1 98
+Encoding: 65539 -1 98
 Width: 4
 Flags: W
 AnchorPoint: "TehtaAbove" 908 1620 mark 0
@@ -6434,11 +6437,11 @@ SplineSet
  1110 1507 1110 1507 1220 1502 c 0,36,37
  1252 1500 1252 1500 1283 1500 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bar_below_narrow
-Encoding: 135 -1 99
+Encoding: 65540 -1 99
 Width: 2
 Flags: W
 AnchorPoint: "mkmk_down" 494 58 mark 0
@@ -6463,11 +6466,11 @@ SplineSet
  330 -47 330 -47 361 -47 c 0,26,27
  435 -47 435 -47 552 -86 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: rightcurl_above_narrow
-Encoding: 126 -1 100
+Encoding: 65541 -1 100
 Width: 1148
 Flags: W
 AnchorPoint: "tehta_contact_up" 129 791 mark 0
@@ -6506,11 +6509,11 @@ SplineSet
  167 786 167 786 113 754 c 0,53,54
  91 741 91 741 79 741 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_above_medium
-Encoding: 127 -1 101
+Encoding: 65542 -1 101
 Width: 1314
 Flags: W
 AnchorPoint: "mkmk_up" 1029 1991 basemark 0
@@ -6554,11 +6557,11 @@ SplineSet
  63 753 63 753 58 750 c 0,59,60
  40 741 40 741 31 741 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_above_wide
-Encoding: 128 -1 102
+Encoding: 65543 -1 102
 Width: 1586
 Flags: W
 AnchorPoint: "tehta_contact_up" 150 791 mark 0
@@ -6599,11 +6602,11 @@ SplineSet
  210 805 210 805 192 787 c 0,56,57
  143 742 143 742 114 741 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_narrow
-Encoding: 129 -1 103
+Encoding: 65544 -1 103
 Width: 984
 Flags: W
 AnchorPoint: "mkmk_up" 830 1991 basemark 0
@@ -6641,11 +6644,11 @@ SplineSet
  699 1466 699 1466 651 1417 c 0,51,52
  576 1340 576 1340 504 1339 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_medium
-Encoding: 130 -1 104
+Encoding: 65545 -1 104
 Width: 1338
 Flags: W
 AnchorPoint: "tehta_contact_up" 114 791 mark 0
@@ -6684,11 +6687,11 @@ SplineSet
  718 1492 718 1492 682 1555 c 0,52,53
  662 1590 662 1590 662 1631 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_wide
-Encoding: 131 -1 105
+Encoding: 65546 -1 105
 Width: 1490
 Flags: W
 AnchorPoint: "mkmk_up" 1075 1991 basemark 0
@@ -6731,11 +6734,11 @@ SplineSet
  1046 1566 1046 1566 988 1520 c 0,60,61
  917 1464 917 1464 856 1464 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bar_above_narrow
-Encoding: 133 -1 106
+Encoding: 65547 -1 106
 Width: 4
 Flags: W
 AnchorPoint: "TehtaAbove" 443 1550 mark 0
@@ -6760,11 +6763,11 @@ SplineSet
  321 1513 321 1513 352 1513 c 0,26,27
  426 1513 426 1513 543 1474 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: bar_below_wide
-Encoding: 136 -1 107
+Encoding: 65548 -1 107
 Width: 2
 Flags: W
 AnchorPoint: "TehtaBelow" 808 -180 mark 0
@@ -6795,7 +6798,7 @@ SplineSet
  1124 -113 1124 -113 1234 -118 c 0,36,37
  1266 -120 1266 -120 1297 -120 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 37 subtable" lambe_bar_below
 Substitution2: "Single Substitution lookup 36 subtable" lambe_bar_below
 Substitution2: "Single Substitution lookup 35 subtable" lambe_bar_below
@@ -6803,7 +6806,7 @@ Substitution2: "Single Substitution lookup 34 subtable" lambe_bar_below
 EndChar
 
 StartChar: lowdham_hw
-Encoding: 60 57404 108
+Encoding: 57404 57404 108
 Width: 998
 Flags: W
 AnchorPoint: "tehta_contact_down" 190 800 basechar 0
@@ -6856,11 +6859,11 @@ SplineSet
  544 89 l 2,70,71
  724 415 724 415 724 531 c 0,57,58
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: lsd_marker
-Encoding: 116 57469 109
+Encoding: 57469 57469 109
 Width: 32
 Flags: W
 AnchorPoint: "TehtaBelow" -640 -450 mark 0
@@ -6892,11 +6895,11 @@ SplineSet
  -731 -496 -731 -496 -736 -497 c 0,37,38
  -769 -497 -769 -497 -769 -558 c 0,21,22
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tehta_grave
-Encoding: 82 57428 110
+Encoding: 57428 57428 110
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -6917,11 +6920,11 @@ SplineSet
  49 1591 49 1591 40 1604 c 0,16,17
  23 1626 23 1626 23 1649 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: formen_reversed
-Encoding: 56 57400 111
+Encoding: 57400 57400 111
 Width: 1288
 Flags: W
 AnchorPoint: "tehta_contact_up" 480 700 basechar 0
@@ -6981,11 +6984,11 @@ SplineSet
  1001 370 l 1,81,-1
  1001 400 l 2,58,59
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tengwa_mh_beleriand
-Encoding: 59 57403 112
+Encoding: 57403 57403 112
 Width: 1421
 Flags: W
 AnchorPoint: "tehta_contact_up" 310 700 basechar 0
@@ -7066,11 +7069,11 @@ SplineSet
  997 583 997 583 914 660 c 0,125,126
  853 715 853 715 769 727 c 0,102,103
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bombadil_hw
-Encoding: 57 57401 113
+Encoding: 57401 57401 113
 Width: 1132
 Flags: W
 AnchorPoint: "tehta_contact_up" 556 700 basechar 0
@@ -7122,11 +7125,11 @@ SplineSet
  206 427 206 427 196 298 c 0,63,64
  195 285 195 285 195 272 c 0,50,51
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: vaiya
-Encoding: 61 57405 114
+Encoding: 57405 57405 114
 Width: 1331
 Flags: W
 AnchorPoint: "tehta_contact_up" 250 700 basechar 0
@@ -7177,11 +7180,11 @@ SplineSet
  704 212 704 212 731 305 c 0,65,66
  747 361 747 361 747 414 c 0,44,45
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: christopher_qu
-Encoding: 55 57399 115
+Encoding: 57399 57399 115
 Width: 1333
 Flags: W
 AnchorPoint: "tehta_contact_up" 500 700 basechar 0
@@ -7245,11 +7248,11 @@ SplineSet
  972 377 972 377 974 396 c 0,90,91
  975 409 975 409 975 432 c 0,72,73
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: anna_open
-Encoding: 54 57398 116
+Encoding: 57398 57398 116
 Width: 1087
 Flags: W
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
@@ -7305,11 +7308,11 @@ SplineSet
  -152 662 -152 662 -158 662 c 0,81,82
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: tecco_above_double
-Encoding: 70 57416 117
+Encoding: 57416 57416 117
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7342,13 +7345,13 @@ SplineSet
  666 1334 666 1334 491 1185 c 4,36,37
  396 1105 396 1105 382 1104 c 4,19,20
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" tecco_above tecco_above
 LCarets2: 1 0
 EndChar
 
 StartChar: rightcurl_above_double
-Encoding: 76 -1 118
+Encoding: 65549 -1 118
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7408,7 +7411,7 @@ SplineSet
  410 1377 410 1377 364 1356 c 0,90,91
  352 1350 352 1350 345 1350 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" rightcurl_above_double_narrow
 Substitution2: "Single Substitution lookup 31 subtable" rightcurl_above_double_medium
 Substitution2: "Single Substitution lookup 30 subtable" rightcurl_above_double_wide
@@ -7430,7 +7433,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: leftcurl_above_double
-Encoding: 77 -1 119
+Encoding: 65550 -1 119
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7486,7 +7489,7 @@ SplineSet
  1315 2229 1315 2229 1233 2287 c 0,84,85
  1197 2312 1197 2312 1177 2312 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 32 subtable" leftcurl_above_double_narrow
 Substitution2: "Single Substitution lookup 31 subtable" leftcurl_above_double_medium
 Substitution2: "Single Substitution lookup 30 subtable" leftcurl_above_double_wide
@@ -7508,7 +7511,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: pusta_quadruple
-Encoding: 94 57443 120
+Encoding: 57443 57443 120
 Width: 914
 Flags: W
 LayerCount: 2
@@ -7555,7 +7558,7 @@ Validated: 2049
 EndChar
 
 StartChar: pusta_quintuple
-Encoding: 95 57444 121
+Encoding: 57444 57444 121
 Width: 1196
 Flags: W
 LayerCount: 2
@@ -7611,7 +7614,7 @@ Validated: 2049
 EndChar
 
 StartChar: rightcurl_below_medium
-Encoding: 138 -1 122
+Encoding: 65551 -1 122
 Width: 1342
 Flags: W
 AnchorPoint: "mkmk_down" 1082 97 mark 0
@@ -7650,11 +7653,11 @@ SplineSet
  490 -1180 490 -1180 375 -1212 c 0,52,53
  337 -1222 337 -1222 301 -1222 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_below_wide
-Encoding: 139 -1 123
+Encoding: 65552 -1 123
 Width: 1839
 Flags: W
 AnchorPoint: "mkmk_down" 569 -1103 basemark 0
@@ -7697,11 +7700,11 @@ SplineSet
  669 -1007 669 -1007 552 -1037 c 0,61,62
  514 -1047 514 -1047 477 -1047 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: leftcurl_below_narrow
-Encoding: 140 -1 124
+Encoding: 65553 -1 124
 Width: 1144
 Flags: W
 AnchorPoint: "mkmk_down" 889 57 mark 0
@@ -7744,11 +7747,11 @@ SplineSet
  276 -764 276 -764 249 -772 c 1,61,62
  223 -824 223 -824 223 -873 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_below_narrow
-Encoding: 137 -1 125
+Encoding: 65554 -1 125
 Width: 977
 Flags: W
 AnchorPoint: "mkmk_down" 389 -1103 basemark 0
@@ -7786,11 +7789,11 @@ SplineSet
  441 -989 441 -989 333 -1017 c 0,51,52
  301 -1026 301 -1026 271 -1026 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_below_medium
-Encoding: 141 -1 126
+Encoding: 65555 -1 126
 Width: 1080
 Flags: W
 AnchorPoint: "mkmk_down" 551 -1143 basemark 0
@@ -7832,11 +7835,11 @@ SplineSet
  215 -761 215 -761 205 -783 c 0,58,59
  186 -824 186 -824 184 -876 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_below_wide
-Encoding: 142 -1 127
+Encoding: 65556 -1 127
 Width: 1629
 Flags: W
 AnchorPoint: "mkmk_down" 457 -1123 basemark 0
@@ -7877,11 +7880,11 @@ SplineSet
  268 -587 268 -587 263 -603 c 0,56,57
  250 -638 250 -638 250 -674 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_double_narrow
-Encoding: 143 -1 128
+Encoding: 65557 -1 128
 Width: 1338
 Flags: W
 AnchorPoint: "mkmk_up" 772 1961 basemark 0
@@ -7935,11 +7938,11 @@ SplineSet
  452 1339 452 1339 414 1400 c 0,79,80
  389 1439 389 1439 389 1487 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_double_medium
-Encoding: 144 -1 129
+Encoding: 65558 -1 129
 Width: 1529
 Flags: W
 AnchorPoint: "tehta_contact_up" 198 631 mark 0
@@ -7994,11 +7997,11 @@ SplineSet
  1331 1719 1331 1719 1249 1777 c 0,84,85
  1213 1802 1213 1802 1193 1802 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: leftcurl_above_double_wide
-Encoding: 145 -1 130
+Encoding: 65559 -1 130
 Width: 2006
 Flags: W
 AnchorPoint: "mkmk_up" 990 1951 basemark 0
@@ -8058,11 +8061,11 @@ SplineSet
  940 1463 940 1463 904 1522 c 0,92,93
  882 1556 882 1556 882 1602 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_above_double_narrow
-Encoding: 146 -1 131
+Encoding: 65560 -1 131
 Width: 1408
 Flags: W
 AnchorPoint: "tehta_contact_up" 206 641 mark 0
@@ -8117,11 +8120,11 @@ SplineSet
  707 1723 707 1723 879 1742 c 0,82,83
  889 1743 889 1743 900 1743 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_above_double_medium
-Encoding: 147 -1 132
+Encoding: 65561 -1 132
 Width: 1596
 Flags: W
 AnchorPoint: "mkmk_up" 737 1941 basemark 0
@@ -8180,11 +8183,11 @@ SplineSet
  375 767 375 767 329 746 c 0,90,91
  317 740 317 740 310 740 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rightcurl_above_double_wide
-Encoding: 148 -1 133
+Encoding: 65562 -1 133
 Width: 1816
 Flags: W
 AnchorPoint: "tehta_contact_up" 196 651 mark 0
@@ -8241,11 +8244,11 @@ SplineSet
  129 796 129 796 109 777 c 0,85,86
  71 741 71 741 42 741 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: lambe.loop
-Encoding: 117 -1 134
+Encoding: 65563 -1 134
 Width: 1739
 Flags: W
 AnchorPoint: "tehta_contact_down" 1336 -150 basechar 0
@@ -8332,7 +8335,7 @@ Validated: 1
 EndChar
 
 StartChar: harmasilme
-Encoding: 118 -1 135
+Encoding: 65564 -1 135
 Width: 1992
 Flags: W
 AnchorPoint: "tehta_contact_down" 1000 50 basechar 0
@@ -8405,13 +8408,13 @@ SplineSet
  1481 889 1481 889 1495 793 c 0,109,110
  1496 784 1496 784 1496 775 c 0,47,48
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" silme zwj harma
 LCarets2: 2 0 0
 EndChar
 
 StartChar: harmatinco
-Encoding: 119 -1 136
+Encoding: 65565 -1 136
 Width: 2048
 AnchorPoint: "tehta_contact_up" 330 700 basechar 0
 AnchorPoint: "tehta_contact_down" 370 50 basechar 0
@@ -8502,13 +8505,13 @@ SplineSet
  346 728 346 728 290 581 c 0,140,141
  267 519 267 519 267 446 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Ligature2: "Ligatures subtable" harma zwj tinco
 LCarets2: 2 0 0
 EndChar
 
 StartChar: hwestatinco
-Encoding: 120 -1 137
+Encoding: 65566 -1 137
 Width: 2048
 AnchorPoint: "tehta_contact_up" 400 700 basechar 0
 AnchorPoint: "tehta_contact_down" 370 50 basechar 0
@@ -8608,13 +8611,13 @@ SplineSet
  881 311 881 311 960 513 c 1,155,-1
  1039 738 l 1,135,136
 EndSplineSet
-Validated: 1048609
+Validated: 33
 Ligature2: "Ligatures subtable" hwesta zwj tinco
 LCarets2: 2 0 0
 EndChar
 
 StartChar: pusta_triple_variant
-Encoding: 121 -1 138
+Encoding: 65567 -1 138
 Width: 755
 Flags: W
 LayerCount: 2
@@ -8652,7 +8655,7 @@ Validated: 1
 EndChar
 
 StartChar: pusta_quadruple_var
-Encoding: 122 -1 139
+Encoding: 65568 -1 139
 Width: 1037
 Flags: W
 LayerCount: 2
@@ -8699,7 +8702,7 @@ Validated: 2049
 EndChar
 
 StartChar: tecco_below_double
-Encoding: 71 57417 140
+Encoding: 57417 57417 140
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8732,13 +8735,13 @@ SplineSet
  676 -336 676 -336 501 -485 c 4,36,37
  406 -565 406 -565 392 -566 c 4,19,20
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" tecco_below tecco_below
 LCarets2: 1 0
 EndChar
 
 StartChar: tehta_circumflex
-Encoding: 89 57435 141
+Encoding: 57435 57435 141
 Width: 4
 Flags: W
 AnchorPoint: "mkmk_up" 496 1869 basemark 0
@@ -8766,11 +8769,11 @@ SplineSet
  240 1460 240 1460 114 1344 c 0,31,32
  45 1280 45 1280 16 1280 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tehta_caron
-Encoding: 90 57436 142
+Encoding: 57436 57436 142
 Width: 0
 Flags: W
 AnchorPoint: "mkmk_up" 406 1869 basemark 0
@@ -8798,11 +8801,11 @@ SplineSet
  20 1650 20 1650 20 1653 c 2,28,-1
  20 1655 l 2,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tengwa_section_double_left
-Encoding: 123 -1 143
+Encoding: 65569 -1 143
 Width: 2048
 LayerCount: 2
 Fore
@@ -8870,7 +8873,7 @@ Ligature2: "Ligatures subtable" tengwa_section_double pusta_double
 EndChar
 
 StartChar: tengwa_section_double_right
-Encoding: 124 -1 144
+Encoding: 65570 -1 144
 Width: 2048
 LayerCount: 2
 Fore
@@ -8939,7 +8942,7 @@ Ligature2: "Ligatures subtable" pusta_double tengwa_section_double
 EndChar
 
 StartChar: stemless_tinco
-Encoding: 48 57392 145
+Encoding: 57392 57392 145
 Width: 854
 Flags: W
 AnchorPoint: "tehta_contact_up" -55 700 basechar 0
@@ -8980,11 +8983,11 @@ SplineSet
  -162 565 -162 565 -183 565 c 0,49,50
  -201 565 -201 565 -199 582 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: stemless_quesse
-Encoding: 51 57395 146
+Encoding: 57395 57395 146
 Width: 1157
 Flags: W
 AnchorPoint: "tehta_contact_up" 355 700 basechar 0
@@ -9034,11 +9037,11 @@ SplineSet
  141 499 141 499 295 679 c 0,66,67
  336 728 336 728 376 762 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni2E31
-Encoding: 151 11825 147
+Encoding: 11825 11825 147
 Width: 512
 Flags: W
 LayerCount: 2
@@ -9058,7 +9061,7 @@ Validated: 1
 EndChar
 
 StartChar: colon
-Encoding: 152 58 148
+Encoding: 58 58 148
 Width: 581
 Flags: W
 LayerCount: 2
@@ -9087,7 +9090,7 @@ Validated: 1
 EndChar
 
 StartChar: uni205D
-Encoding: 153 8285 149
+Encoding: 8285 8285 149
 Width: 536
 Flags: W
 LayerCount: 2
@@ -9125,7 +9128,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2058
-Encoding: 154 8280 150
+Encoding: 8280 8280 150
 Width: 914
 Flags: W
 LayerCount: 2
@@ -9172,7 +9175,7 @@ Validated: 2049
 EndChar
 
 StartChar: uni2E2D
-Encoding: 155 11821 151
+Encoding: 11821 11821 151
 Width: 1196
 Flags: W
 LayerCount: 2
@@ -9228,7 +9231,7 @@ Validated: 2049
 EndChar
 
 StartChar: zwj
-Encoding: 156 8205 152
+Encoding: 8205 8205 152
 Width: 0
 Flags: W
 LayerCount: 2
@@ -9237,7 +9240,7 @@ Validated: 1
 EndChar
 
 StartChar: sarince_end_flourish
-Encoding: 157 -1 153
+Encoding: 65571 -1 153
 Width: 1352
 GlyphClass: 2
 Flags: W
@@ -9304,13 +9307,13 @@ SplineSet
  1169 262 1169 262 1176 276 c 0,89,90
  1200 323 1200 323 1200 381 c 0,73,74
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" sarince_end sarince_end
 LCarets2: 1 0
 EndChar
 
 StartChar: lambe_bar_below
-Encoding: 158 -1 154
+Encoding: 65572 -1 154
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -9343,7 +9346,7 @@ Validated: 1
 EndChar
 
 StartChar: tengwa_tilde_narrow
-Encoding: 132 -1 155
+Encoding: 65573 -1 155
 Width: 0
 Flags: W
 AnchorPoint: "tehta_contact_up" 160 1141 mark 0
@@ -9386,11 +9389,11 @@ SplineSet
  219 1605 219 1605 192 1660 c 0,58,59
  173 1699 173 1699 173 1738 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tinco.nofin
-Encoding: 159 -1 156
+Encoding: 65574 -1 156
 Width: 1238
 Flags: W
 AnchorPoint: "TehtaAbove" 772 1200 basechar 0
@@ -9446,11 +9449,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,79,80
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: parma.nofin
-Encoding: 160 -1 157
+Encoding: 65575 -1 157
 Width: 1226
 Flags: W
 AnchorPoint: "TehtaAbove" 837 1200 basechar 0
@@ -9518,11 +9521,11 @@ SplineSet
  943 266 943 266 978 363 c 0,96,97
  998 417 998 417 998 470 c 0,74,75
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: quesse.nofin
-Encoding: 161 -1 158
+Encoding: 65576 -1 158
 Width: 1274
 Flags: W
 AnchorPoint: "TehtaAbove" 907 1200 basechar 0
@@ -9583,11 +9586,11 @@ SplineSet
  1070 677 l 2,82,83
  1070 679 1070 679 1031 679 c 0,63,64
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ando.nofin
-Encoding: 162 -1 159
+Encoding: 65577 -1 159
 Width: 1886
 Flags: W
 AnchorPoint: "TehtaAbove" 1115 1200 basechar 0
@@ -9667,11 +9670,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,126,127
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: umbar.nofin
-Encoding: 163 -1 160
+Encoding: 65578 -1 160
 Width: 1904
 Flags: W
 AnchorPoint: "TehtaAbove" 1115 1200 basechar 0
@@ -9753,11 +9756,11 @@ SplineSet
  969 268 969 268 886 187 c 2,117,-1
  863 163 l 1,102,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: ungwe.nofin
-Encoding: 164 -1 161
+Encoding: 65579 -1 161
 Width: 1862
 Flags: W
 AnchorPoint: "shook" 1683 750 basechar 0
@@ -9833,11 +9836,11 @@ SplineSet
  1568 608 1568 608 1617 677 c 1,109,-1
  1562 678 l 1,89,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: thuule.nofin
-Encoding: 165 -1 162
+Encoding: 65580 -1 162
 Width: 1208
 Flags: W
 AnchorPoint: "TehtaAbove" 969 1200 basechar 0
@@ -9888,11 +9891,11 @@ SplineSet
  139 91 139 91 39 15 c 0,69,70
  -2 -16 -2 -16 -29 -16 c 0,0,1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: formen.nofin
-Encoding: 166 -1 163
+Encoding: 65581 -1 163
 Width: 1223
 Flags: W
 AnchorPoint: "TehtaAbove" 979 1200 basechar 0
@@ -9949,11 +9952,11 @@ SplineSet
  961 301 961 301 985 406 c 0,75,76
  992 438 992 438 992 470 c 0,54,55
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: anto.nofin
-Encoding: 167 -1 164
+Encoding: 65582 -1 164
 Width: 1868
 Flags: W
 AnchorPoint: "TehtaAbove" 1339 1200 basechar 0
@@ -10026,11 +10029,11 @@ SplineSet
  153 97 153 97 53 18 c 0,111,112
  9 -16 9 -16 -19 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ampa.nofin
-Encoding: 168 -1 165
+Encoding: 65583 -1 165
 Width: 1843
 Flags: W
 AnchorPoint: "TehtaAbove" 1339 1200 basechar 0
@@ -10104,11 +10107,11 @@ SplineSet
  948 257 948 257 880 187 c 2,103,-1
  856 163 l 1,82,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: nuumen.nofin
-Encoding: 169 -1 166
+Encoding: 65584 -1 166
 Width: 1864
 Flags: W
 AnchorPoint: "TehtaAbove" 1169 1200 basechar 0
@@ -10191,11 +10194,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,132,133
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: malta.nofin
-Encoding: 170 -1 167
+Encoding: 65585 -1 167
 Width: 1832
 Flags: W
 AnchorPoint: "TehtaAbove" 1169 1200 basechar 0
@@ -10270,11 +10273,11 @@ SplineSet
  951 251 951 251 885 187 c 2,110,-1
  862 163 l 1,94,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: nwalme.nofin
-Encoding: 171 -1 168
+Encoding: 65586 -1 168
 Width: 1806
 Flags: W
 AnchorPoint: "TehtaAbove" 1083 1200 basechar 0
@@ -10348,11 +10351,11 @@ SplineSet
  1563 616 1563 616 1608 677 c 1,106,-1
  1553 678 l 1,87,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: oore.nofin
-Encoding: 172 -1 169
+Encoding: 65587 -1 169
 Width: 1228
 Flags: W
 AnchorPoint: "TehtaAbove" 749 1200 basechar 0
@@ -10407,11 +10410,11 @@ SplineSet
  -150 662 -150 662 -158 662 c 0,77,78
  -174 662 -174 662 -174 675 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: vala.nofin
-Encoding: 173 -1 170
+Encoding: 65588 -1 170
 Width: 1196
 Flags: W
 AnchorPoint: "TehtaAbove" 749 1200 basechar 0
@@ -10469,11 +10472,11 @@ SplineSet
  874 207 874 207 922 268 c 0,78,60
  997 363 997 363 997 471 c 128,-1,61
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: wilya.nofin
-Encoding: 174 -1 171
+Encoding: 65589 -1 171
 Width: 1300
 Flags: W
 AnchorPoint: "TehtaAbove" 755 1200 basechar 0
@@ -10532,11 +10535,11 @@ SplineSet
  1061 678 l 2,80,81
  1061 679 1061 679 1022 679 c 0,59,60
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tinco_ext.nofin
-Encoding: 175 -1 172
+Encoding: 65590 -1 172
 Width: 1247
 Flags: W
 AnchorPoint: "TehtaAbove" 1029 1200 basechar 0
@@ -10601,11 +10604,11 @@ SplineSet
  -1560 -2212 l 2,88,89
  -1610 -2254 -1610 -2254 -1642 -2254 c 0,0,1
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: parma_ext.nofin
-Encoding: 176 -1 173
+Encoding: 65591 -1 173
 Width: 1229
 Flags: W
 AnchorPoint: "TehtaAbove" 1029 1200 basechar 0
@@ -10676,11 +10679,11 @@ SplineSet
  273 368 273 368 199 190 c 0,95,96
  179 140 179 140 179 134 c 1,77,78
 EndSplineSet
-Validated: 1048581
+Validated: 5
 EndChar
 
 StartChar: ando_ext.nofin
-Encoding: 177 -1 174
+Encoding: 65592 -1 174
 Width: 1859
 Flags: W
 AnchorPoint: "TehtaAbove" 1339 1200 basechar 0
@@ -10767,11 +10770,11 @@ SplineSet
  -1560 -2212 l 2,129,130
  -1610 -2254 -1610 -2254 -1642 -2254 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: umbar_ext.nofin
-Encoding: 178 -1 175
+Encoding: 65593 -1 175
 Width: 1841
 Flags: W
 AnchorPoint: "TehtaAbove" 1339 1200 basechar 0
@@ -10863,11 +10866,11 @@ SplineSet
  944 256 944 256 875 186 c 2,128,-1
  852 163 l 1,109,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: silme.nofin
-Encoding: 179 -1 176
+Encoding: 65594 -1 176
 Width: 1053
 Flags: W
 AnchorPoint: "TehtaAbove" 336 1600 basechar 0
@@ -10902,11 +10905,11 @@ SplineSet
  792 82 792 82 614 24 c 0,39,40
  495 -14 495 -14 369 -16 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: zero
-Encoding: 180 48 177
+Encoding: 48 48 177
 Width: 854
 Flags: W
 AnchorPoint: "tehta_contact_up" -55 700 basechar 0
@@ -10947,11 +10950,11 @@ SplineSet
  -162 565 -162 565 -183 565 c 0,49,50
  -201 565 -201 565 -199 582 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: one
-Encoding: 181 49 178
+Encoding: 49 49 178
 Width: 1157
 Flags: W
 AnchorPoint: "tehta_contact_up" 355 700 basechar 0
@@ -11001,11 +11004,11 @@ SplineSet
  141 499 141 499 295 679 c 0,66,67
  336 728 336 728 376 762 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: two
-Encoding: 182 50 179
+Encoding: 50 50 179
 Width: 1721
 Flags: W
 AnchorPoint: "tehta_contact_up" 410 700 basechar 0
@@ -11073,11 +11076,11 @@ SplineSet
  384 625 384 625 370 489 c 0,97,98
  367 468 367 468 367 446 c 0,75,76
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: three
-Encoding: 183 51 180
+Encoding: 51 51 180
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 370 700 basechar 0
@@ -11160,11 +11163,11 @@ SplineSet
  1432 676 1432 676 1468 718 c 1,125,-1
  1445 719 l 2,99,100
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: four
-Encoding: 184 52 181
+Encoding: 52 52 181
 Width: 469
 Flags: W
 AnchorPoint: "tehta_contact_up" 360 700 basechar 0
@@ -11214,11 +11217,11 @@ SplineSet
  873 -820 873 -820 908 -882 c 0,65,66
  931 -924 931 -924 931 -978 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: five
-Encoding: 185 53 182
+Encoding: 53 53 182
 Width: 1663
 Flags: W
 AnchorPoint: "tehta_contact_up" 940 700 basechar 0
@@ -11292,11 +11295,11 @@ SplineSet
  833 646 833 646 896 710 c 2,101,-1
  916 731 l 1,72,73
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: six
-Encoding: 186 54 183
+Encoding: 54 54 183
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 910 700 basechar 0
@@ -11389,11 +11392,11 @@ SplineSet
  1361 570 1361 570 1477 704 c 0,136,137
  1489 718 1489 718 1489 719 c 2,119,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: seven
-Encoding: 187 55 184
+Encoding: 55 55 184
 Width: 717
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -11437,11 +11440,11 @@ SplineSet
  -1282 -898 -1282 -898 -1227 -880 c 0,55,56
  -1217 -877 -1217 -877 -1210 -877 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: eight
-Encoding: 188 56 185
+Encoding: 56 56 185
 Width: 1333
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -11523,11 +11526,11 @@ SplineSet
  332 175 l 1,121,122
  448 196 448 196 570 196 c 2,103,-1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: nine
-Encoding: 189 57 186
+Encoding: 57 57 186
 Width: 2048
 Flags: W
 AnchorPoint: "tehta_contact_up" 322 700 basechar 0
@@ -11625,11 +11628,11 @@ SplineSet
  1617 301 1617 301 1638 398 c 0,148,149
  1646 430 1646 430 1646 462 c 0,126,127
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: hyphen
-Encoding: 190 45 187
+Encoding: 45 45 187
 Width: 1300
 Flags: W
 LayerCount: 2
@@ -11660,7 +11663,7 @@ Validated: 1
 EndChar
 
 StartChar: .notdef
-Encoding: 191 -1 188
+Encoding: 65595 -1 188
 Width: 748
 GlyphClass: 1
 Flags: W
@@ -11730,7 +11733,7 @@ Validated: 16385
 EndChar
 
 StartChar: uni0000
-Encoding: 192 0 189
+Encoding: 0 0 189
 Width: 751
 GlyphClass: 2
 Flags: W
@@ -11740,7 +11743,7 @@ Validated: 1
 EndChar
 
 StartChar: nonmarkingreturn
-Encoding: 193 -1 190
+Encoding: 65596 -1 190
 Width: 682
 GlyphClass: 2
 Flags: W
@@ -11750,7 +11753,7 @@ Validated: 1
 EndChar
 
 StartChar: exclam
-Encoding: 194 33 191
+Encoding: 33 33 191
 Width: 672
 GlyphClass: 2
 Flags: W
@@ -11793,7 +11796,7 @@ Validated: 33
 EndChar
 
 StartChar: quotedbl
-Encoding: 195 34 192
+Encoding: 34 34 192
 Width: 732
 GlyphClass: 2
 Flags: W
@@ -11831,7 +11834,7 @@ Validated: 1
 EndChar
 
 StartChar: numbersign
-Encoding: 196 35 193
+Encoding: 35 35 193
 Width: 1556
 GlyphClass: 2
 Flags: W
@@ -11925,7 +11928,7 @@ Validated: 2053
 EndChar
 
 StartChar: dollar
-Encoding: 197 36 194
+Encoding: 36 36 194
 Width: 1194
 GlyphClass: 2
 Flags: W
@@ -12018,7 +12021,7 @@ Validated: 37
 EndChar
 
 StartChar: percent
-Encoding: 198 37 195
+Encoding: 37 37 195
 Width: 1202
 GlyphClass: 2
 Flags: W
@@ -12096,7 +12099,7 @@ Validated: 2081
 EndChar
 
 StartChar: ampersand
-Encoding: 199 38 196
+Encoding: 38 38 196
 Width: 1928
 GlyphClass: 2
 Flags: W
@@ -12201,7 +12204,7 @@ Validated: 37
 EndChar
 
 StartChar: quotesingle
-Encoding: 200 39 197
+Encoding: 39 39 197
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -12227,7 +12230,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft
-Encoding: 201 40 198
+Encoding: 40 40 198
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -12256,7 +12259,7 @@ Validated: 1
 EndChar
 
 StartChar: parenright
-Encoding: 202 41 199
+Encoding: 41 41 199
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -12283,7 +12286,7 @@ Validated: 1
 EndChar
 
 StartChar: asterisk
-Encoding: 203 42 200
+Encoding: 42 42 200
 Width: 1109
 GlyphClass: 2
 Flags: W
@@ -12362,7 +12365,7 @@ Validated: 2085
 EndChar
 
 StartChar: plus
-Encoding: 204 43 201
+Encoding: 43 43 201
 Width: 1190
 GlyphClass: 2
 Flags: W
@@ -12414,7 +12417,7 @@ Validated: 37
 EndChar
 
 StartChar: comma
-Encoding: 205 44 202
+Encoding: 44 44 202
 Width: 318
 GlyphClass: 2
 Flags: W
@@ -12439,7 +12442,7 @@ Validated: 1
 EndChar
 
 StartChar: period
-Encoding: 206 46 203
+Encoding: 46 46 203
 Width: 267
 GlyphClass: 2
 Flags: W
@@ -12460,7 +12463,7 @@ Validated: 1
 EndChar
 
 StartChar: slash
-Encoding: 207 47 204
+Encoding: 47 47 204
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -12492,7 +12495,7 @@ Validated: 33
 EndChar
 
 StartChar: semicolon
-Encoding: 208 59 205
+Encoding: 59 59 205
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -12526,7 +12529,7 @@ Validated: 1
 EndChar
 
 StartChar: less
-Encoding: 209 60 206
+Encoding: 60 60 206
 Width: 1068
 GlyphClass: 2
 Flags: W
@@ -12560,7 +12563,7 @@ Validated: 37
 EndChar
 
 StartChar: equal
-Encoding: 210 61 207
+Encoding: 61 61 207
 Width: 870
 GlyphClass: 2
 Flags: W
@@ -12608,7 +12611,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 211 62 208
+Encoding: 62 62 208
 Width: 1040
 GlyphClass: 2
 Flags: W
@@ -12642,7 +12645,7 @@ Validated: 37
 EndChar
 
 StartChar: question
-Encoding: 212 63 209
+Encoding: 63 63 209
 Width: 1373
 GlyphClass: 2
 Flags: W
@@ -12699,7 +12702,7 @@ Validated: 33
 EndChar
 
 StartChar: bracketleft
-Encoding: 213 91 210
+Encoding: 91 91 210
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -12728,7 +12731,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 214 92 211
+Encoding: 92 92 211
 Width: 896
 GlyphClass: 2
 Flags: W
@@ -12760,7 +12763,7 @@ Validated: 33
 EndChar
 
 StartChar: bracketright
-Encoding: 215 93 212
+Encoding: 93 93 212
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -12787,7 +12790,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 216 94 213
+Encoding: 94 94 213
 Width: 896
 GlyphClass: 2
 Flags: W
@@ -12817,7 +12820,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 217 95 214
+Encoding: 95 95 214
 Width: 1538
 GlyphClass: 2
 Flags: W
@@ -12850,7 +12853,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 218 96 215
+Encoding: 96 96 215
 Width: 719
 GlyphClass: 2
 Flags: W
@@ -12873,7 +12876,7 @@ Validated: 1
 EndChar
 
 StartChar: braceleft
-Encoding: 219 123 216
+Encoding: 123 123 216
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -12902,7 +12905,7 @@ Validated: 1
 EndChar
 
 StartChar: bar
-Encoding: 220 124 217
+Encoding: 124 124 217
 AltUni2: 0001c0.ffffffff.0
 Width: 696
 GlyphClass: 2
@@ -12935,7 +12938,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 221 125 218
+Encoding: 125 125 218
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -12962,7 +12965,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 222 126 219
+Encoding: 126 126 219
 Width: 1538
 GlyphClass: 2
 Flags: W
@@ -12995,7 +12998,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 223 161 220
+Encoding: 161 161 220
 Width: 792
 GlyphClass: 2
 Flags: W
@@ -13038,7 +13041,7 @@ Validated: 33
 EndChar
 
 StartChar: cent
-Encoding: 224 162 221
+Encoding: 162 162 221
 Width: 1253
 GlyphClass: 2
 Flags: W
@@ -13102,7 +13105,7 @@ Validated: 5
 EndChar
 
 StartChar: yen
-Encoding: 225 165 222
+Encoding: 165 165 222
 Width: 1391
 GlyphClass: 2
 Flags: W
@@ -13192,7 +13195,7 @@ Validated: 2085
 EndChar
 
 StartChar: dieresis
-Encoding: 226 168 223
+Encoding: 168 168 223
 Width: 722
 GlyphClass: 2
 Flags: W
@@ -13228,7 +13231,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotleft
-Encoding: 227 171 224
+Encoding: 171 171 224
 Width: 1379
 GlyphClass: 2
 Flags: W
@@ -13284,7 +13287,7 @@ Validated: 2085
 EndChar
 
 StartChar: macron
-Encoding: 228 175 225
+Encoding: 175 175 225
 Width: 1008
 GlyphClass: 2
 Flags: W
@@ -13314,7 +13317,7 @@ Validated: 1
 EndChar
 
 StartChar: degree
-Encoding: 229 176 226
+Encoding: 176 176 226
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -13352,7 +13355,7 @@ Validated: 1
 EndChar
 
 StartChar: plusminus
-Encoding: 230 177 227
+Encoding: 177 177 227
 Width: 1184
 GlyphClass: 2
 Flags: W
@@ -13424,7 +13427,7 @@ Validated: 37
 EndChar
 
 StartChar: acute
-Encoding: 231 180 228
+Encoding: 180 180 228
 Width: 607
 GlyphClass: 2
 Flags: W
@@ -13447,7 +13450,7 @@ Validated: 1
 EndChar
 
 StartChar: periodcentered
-Encoding: 232 183 229
+Encoding: 183 183 229
 Width: 340
 GlyphClass: 2
 Flags: W
@@ -13468,7 +13471,7 @@ Validated: 1
 EndChar
 
 StartChar: cedilla
-Encoding: 233 184 230
+Encoding: 184 184 230
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -13505,7 +13508,7 @@ Validated: 33
 EndChar
 
 StartChar: guillemotright
-Encoding: 234 187 231
+Encoding: 187 187 231
 Width: 1475
 GlyphClass: 2
 Flags: W
@@ -13561,7 +13564,7 @@ Validated: 2085
 EndChar
 
 StartChar: questiondown
-Encoding: 235 191 232
+Encoding: 191 191 232
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -13618,7 +13621,7 @@ Validated: 33
 EndChar
 
 StartChar: multiply
-Encoding: 236 215 233
+Encoding: 215 215 233
 Width: 869
 GlyphClass: 2
 Flags: W
@@ -13652,7 +13655,7 @@ Validated: 5
 EndChar
 
 StartChar: divide
-Encoding: 237 247 234
+Encoding: 247 247 234
 Width: 1051
 GlyphClass: 2
 Flags: W
@@ -13706,7 +13709,7 @@ Validated: 33
 EndChar
 
 StartChar: endash
-Encoding: 238 8211 235
+Encoding: 8211 8211 235
 Width: 1320
 GlyphClass: 2
 Flags: W
@@ -13738,7 +13741,7 @@ Validated: 1
 EndChar
 
 StartChar: emdash
-Encoding: 239 8212 236
+Encoding: 8212 8212 236
 Width: 1538
 GlyphClass: 2
 Flags: W
@@ -13771,7 +13774,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteleft
-Encoding: 240 8216 237
+Encoding: 8216 8216 237
 Width: 194
 GlyphClass: 2
 Flags: W
@@ -13797,7 +13800,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteright
-Encoding: 241 8217 238
+Encoding: 8217 8217 238
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -13823,7 +13826,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblleft
-Encoding: 242 8220 239
+Encoding: 8220 8220 239
 Width: 486
 GlyphClass: 2
 Flags: W
@@ -13861,7 +13864,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblright
-Encoding: 243 8221 240
+Encoding: 8221 8221 240
 Width: 705
 GlyphClass: 2
 Flags: W
@@ -13899,7 +13902,7 @@ Validated: 1
 EndChar
 
 StartChar: bullet
-Encoding: 244 8226 241
+Encoding: 8226 8226 241
 Width: 340
 GlyphClass: 2
 Flags: W
@@ -13920,7 +13923,7 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis
-Encoding: 245 8230 242
+Encoding: 8230 8230 242
 Width: 802
 GlyphClass: 2
 Flags: W
@@ -13959,7 +13962,7 @@ Validated: 1
 EndChar
 
 StartChar: perthousand
-Encoding: 246 8240 243
+Encoding: 8240 8240 243
 Width: 1778
 GlyphClass: 2
 Flags: W
@@ -14060,7 +14063,7 @@ Validated: 2081
 EndChar
 
 StartChar: trademark
-Encoding: 247 8482 244
+Encoding: 8482 8482 244
 Width: 1319
 GlyphClass: 2
 Flags: W
@@ -14180,7 +14183,7 @@ Validated: 33
 EndChar
 
 StartChar: tengwa_exclamation_double
-Encoding: 248 -1 245
+Encoding: 65597 -1 245
 Width: 1058
 Flags: W
 LayerCount: 2
@@ -14232,7 +14235,7 @@ Ligature2: "Ligatures subtable" tengwa_exclamation tengwa_exclamation
 EndChar
 
 StartChar: long_carrier_alt
-Encoding: 251 -1 246
+Encoding: 65598 -1 246
 Width: 983
 Flags: W
 AnchorPoint: "tehta_contact_down" 177 200 basechar 0
@@ -14276,11 +14279,11 @@ SplineSet
  220 -16 220 -16 125 82 c 0,56,57
  29 182 29 182 29 327 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uure.slash
-Encoding: 249 -1 247
+Encoding: 65599 -1 247
 Width: 940
 Flags: W
 AnchorPoint: "tehta_contact_up" 265 700 basechar 0
@@ -14336,11 +14339,11 @@ SplineSet
  108.71875 -181.987304688 108.71875 -181.987304688 59.513671875 -187.09375 c 0,77,78
  49.4453125 -187.913085938 49.4453125 -187.913085938 42.8818359375 -186.154296875 c 0,42,43
 EndSplineSet
-Validated: 1048613
+Validated: 37
 EndChar
 
 StartChar: lambe_small
-Encoding: 252 -1 248
+Encoding: 65600 -1 248
 Width: 1157
 Flags: W
 AnchorPoint: "tehta_contact_up" 355 700 basechar 0
@@ -14390,11 +14393,11 @@ SplineSet
  141 499 141 499 295 679 c 0,66,67
  336 728 336 728 376 762 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: osse.tick
-Encoding: 250 -1 249
+Encoding: 65601 -1 249
 Width: 1049
 Flags: W
 AnchorPoint: "TehtaAbove" 619 1200 basechar 0
@@ -14443,11 +14446,11 @@ SplineSet
  237 -387 237 -387 291 -338 c 2,64,-1
  687 19 l 1,0,-1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: bombadil_hw.variant
-Encoding: 253 -1 250
+Encoding: 65602 -1 250
 Width: 1278
 Flags: W
 AnchorPoint: "TehtaAbove" 295 1200 basechar 0
@@ -14502,11 +14505,11 @@ SplineSet
  402 495 402 495 257 265 c 1,74,-1
  226 214 l 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: thuule_bombadil_hw
-Encoding: 254 -1 251
+Encoding: 65603 -1 251
 Width: 1100
 Flags: W
 AnchorPoint: "TehtaAbove" 969 1200 basechar 0
@@ -14578,13 +14581,13 @@ SplineSet
  52 2 52 2 -6 -14 c 0,102,103
  -14 -16 -14 -16 -20 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Ligature2: "Ligatures subtable" thuule zwj bombadil_hw.variant
 LCarets2: 2 0 0
 EndChar
 
 StartChar: sarince_end_down
-Encoding: 255 -1 252
+Encoding: 65604 -1 252
 Width: 714
 GlyphClass: 4
 Flags: W
@@ -14627,7 +14630,7 @@ Validated: 1
 EndChar
 
 StartChar: digit_zero
-Encoding: 103 57456 253
+Encoding: 57456 57456 253
 Width: 854
 Flags: W
 AnchorPoint: "tehta_contact_up" -55 700 basechar 0
@@ -14668,11 +14671,11 @@ SplineSet
  -162 565 -162 565 -183 565 c 0,49,50
  -201 565 -201 565 -199 582 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: digit_one
-Encoding: 104 57457 254
+Encoding: 57457 57457 254
 Width: 1157
 Flags: W
 AnchorPoint: "tehta_contact_up" 355 700 basechar 0
@@ -14722,11 +14725,11 @@ SplineSet
  141 499 141 499 295 679 c 0,66,67
  336 728 336 728 376 762 c 1,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: anna_sindarinwa
-Encoding: 53 57397 255
+Encoding: 57397 57397 255
 Width: 1207
 Flags: W
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
@@ -14777,11 +14780,11 @@ SplineSet
  679 114 679 114 544 44 c 0,69,70
  430 -16 430 -16 339 -16 c 0,0,1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: sarince_end_up
-Encoding: 256 -1 256
+Encoding: 65605 -1 256
 Width: 1328
 GlyphClass: 2
 Flags: W
@@ -14828,7 +14831,107 @@ SplineSet
  645 361 645 361 629 445 c 0,62,63
  623 477 623 477 623 502 c 0,0,1
 EndSplineSet
-Validated: 1048609
+Validated: 33
+EndChar
+
+StartChar: uni204A
+Encoding: 8266 8266 257
+Width: 1244
+Flags: W
+AnchorPoint: "tehta_contact_down" 760 100 basechar 0
+AnchorPoint: "TehtaBelow" 866 -400 basechar 0
+AnchorPoint: "TehtaAbove" 739 1200 basechar 0
+AnchorPoint: "Inside" 551 450 basechar 0
+AnchorPoint: "shook" 1060 800 basechar 0
+AnchorPoint: "tehta_contact_up" 85 700 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+-43 583 m 0,0,1
+ -59 583 -59 583 -59 598 c 0,2,3
+ -59 629 -59 629 -7 677 c 0,4,5
+ 184 850 184 850 396 894 c 0,6,7
+ 461 907 461 907 532 910 c 0,8,9
+ 643 914 643 914 800 888 c 0,10,11
+ 976 859 976 859 1104 858 c 2,12,-1
+ 1116 858 l 2,13,14
+ 1191 858 1191 858 1255 889 c 0,15,16
+ 1281 901 1281 901 1294 901 c 0,17,18
+ 1311 901 1311 901 1311 885 c 0,19,20
+ 1311 835 1311 835 1226 782 c 0,21,22
+ 1157 738 1157 738 1077 722 c 0,23,24
+ 1064 719 1064 719 1059 711 c 0,25,26
+ 1058 709 1058 709 1028 632 c 2,27,-1
+ 955 434 l 2,28,29
+ 858 169 858 169 799 37 c 0,30,31
+ 464 -718 464 -718 -313 -1505 c 1,32,-1
+ -592 -1777 l 1,33,34
+ -826 -1997 -826 -1997 -902 -2061 c 0,35,36
+ -950 -2099 -950 -2099 -983 -2102 c 0,37,38
+ -997 -2102 -997 -2102 -997 -2088 c 0,39,40
+ -997 -2057 -997 -2057 -922 -1986 c 2,41,-1
+ -598 -1686 l 1,42,43
+ -273 -1376 -273 -1376 -55 -1121 c 0,44,45
+ 425 -559 425 -559 662 6 c 0,46,47
+ 710 121 710 121 821 425 c 0,48,49
+ 899 641 899 641 948 715 c 1,50,51
+ 828 721 828 721 594 753 c 0,52,53
+ 494 767 494 767 444 767 c 0,54,55
+ 236 767 236 767 95 667 c 1,56,-1
+ 7 600 l 2,57,58
+ -20 583 -20 583 -43 583 c 0,0,1
+EndSplineSet
+Validated: 33
+EndChar
+
+StartChar: tironian_et
+Encoding: 57452 57452 258
+Width: 1244
+Flags: W
+AnchorPoint: "tehta_contact_down" 760 100 basechar 0
+AnchorPoint: "TehtaBelow" 866 -400 basechar 0
+AnchorPoint: "TehtaAbove" 739 1200 basechar 0
+AnchorPoint: "Inside" 551 450 basechar 0
+AnchorPoint: "shook" 1060 800 basechar 0
+AnchorPoint: "tehta_contact_up" 85 700 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+-43 583 m 0,0,1
+ -59 583 -59 583 -59 598 c 0,2,3
+ -59 629 -59 629 -7 677 c 0,4,5
+ 184 850 184 850 396 894 c 0,6,7
+ 461 907 461 907 532 910 c 0,8,9
+ 643 914 643 914 800 888 c 0,10,11
+ 976 859 976 859 1104 858 c 2,12,-1
+ 1116 858 l 2,13,14
+ 1191 858 1191 858 1255 889 c 0,15,16
+ 1281 901 1281 901 1294 901 c 0,17,18
+ 1311 901 1311 901 1311 885 c 0,19,20
+ 1311 835 1311 835 1226 782 c 0,21,22
+ 1157 738 1157 738 1077 722 c 0,23,24
+ 1064 719 1064 719 1059 711 c 0,25,26
+ 1058 709 1058 709 1028 632 c 2,27,-1
+ 955 434 l 2,28,29
+ 858 169 858 169 799 37 c 0,30,31
+ 464 -718 464 -718 -313 -1505 c 1,32,-1
+ -592 -1777 l 1,33,34
+ -826 -1997 -826 -1997 -902 -2061 c 0,35,36
+ -950 -2099 -950 -2099 -983 -2102 c 0,37,38
+ -997 -2102 -997 -2102 -997 -2088 c 0,39,40
+ -997 -2057 -997 -2057 -922 -1986 c 2,41,-1
+ -598 -1686 l 1,42,43
+ -273 -1376 -273 -1376 -55 -1121 c 0,44,45
+ 425 -559 425 -559 662 6 c 0,46,47
+ 710 121 710 121 821 425 c 0,48,49
+ 899 641 899 641 948 715 c 1,50,51
+ 828 721 828 721 594 753 c 0,52,53
+ 494 767 494 767 444 767 c 0,54,55
+ 236 767 236 767 95 667 c 1,56,-1
+ 7 600 l 2,57,58
+ -20 583 -20 583 -43 583 c 0,0,1
+EndSplineSet
+Validated: 33
 EndChar
 EndChars
 EndSplineFont
