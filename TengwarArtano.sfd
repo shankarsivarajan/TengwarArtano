@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1669003858
+ModificationTime: 1671328953
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -9317,7 +9317,7 @@ Encoding: 65572 -1 154
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "LambeBar" -533 860 mark 0
+AnchorPoint: "LambeBar" -673 890 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9342,7 +9342,6 @@ SplineSet
  -620 1019 -620 1019 -466 990 c 0,34,35
  -343 967 -343 967 -272 967 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: tengwa_tilde_narrow
