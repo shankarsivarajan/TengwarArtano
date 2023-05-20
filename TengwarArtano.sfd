@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1684612748
+ModificationTime: 1684613632
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -523,7 +523,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 289280 144640 96426 0 -1048576 96426 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "LambeBar" "'mark' Mark Positioning lookup 0-1" "Inside" "'mark' Mark Positioning lookup 0-1" "mkmk_down" "'mkmk' Mark to Mark lookup 1-1" "mkmk_up" "'mkmk' Mark to Mark lookup 1-1" "tehta_contact_up" "'mark' Mark Positioning lookup 0-1" "shook" "'mark' Mark Positioning lookup 0-1" "tehta_contact_down" "'mark' Mark Positioning lookup 0-1" "Inside"""  "TehtaBelow" "'mark' Mark Positioning lookup 0-1" "CDoubler"""  "Above"""  "TehtarPos"""  "Tehta"""  "TehtaAbove" "'mark' Mark Positioning lookup 0-1" "Tehta"""  "Anchor-0""" 
-BeginChars: 263 262
+BeginChars: 285 262
 
 StartChar: bar_above_medium
 Encoding: 190 -1 0
@@ -6289,7 +6289,7 @@ Encoding: 159 57433 93
 Width: -4
 GlyphClass: 4
 Flags: W
-AnchorPoint: "mkmk_down" 471 -1133 basemark 0
+AnchorPoint: "mkmk_down" 121 -1133 basemark 0
 AnchorPoint: "tehta_contact_down" 871 67 mark 0
 AnchorPoint: "mkmk_down" 871 67 mark 0
 LayerCount: 2
