@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1680395958
+ModificationTime: 1684612229
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1878,7 +1878,7 @@ EndChar
 
 StartChar: tripledot_above
 Encoding: 136 57408 19
-AltUni2: 00e831.00fe00.0 00e040.ffffffff.0
+AltUni2: 00e040.ffffffff.0 00e831.00fe00.0
 Width: 0
 GlyphClass: 4
 AnchorPoint: "mkmk_up" 426 1839 basemark 0
@@ -2426,9 +2426,9 @@ StartChar: anna
 Encoding: 97 57366 26
 Width: 1207
 Flags: W
+AnchorPoint: "shook" 880 100 basechar 0
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
 AnchorPoint: "tehta_contact_down" 340 50 basechar 0
-AnchorPoint: "shook" 1156 800 basechar 0
 AnchorPoint: "TehtaBelow" 370 -250 basechar 0
 AnchorPoint: "Inside" 525 450 basechar 0
 AnchorPoint: "TehtaAbove" 843 1200 basechar 0
@@ -2481,9 +2481,9 @@ StartChar: wilya
 Encoding: 98 57367 27
 Width: 1241
 Flags: W
+AnchorPoint: "shook" 900 100 basechar 0
 AnchorPoint: "tehta_contact_up" 352 700 basechar 0
 AnchorPoint: "tehta_contact_down" 322 50 basechar 0
-AnchorPoint: "shook" 1142 800 basechar 0
 AnchorPoint: "TehtaBelow" 374 -250 basechar 0
 AnchorPoint: "Inside" 529 450 basechar 0
 AnchorPoint: "TehtaAbove" 717 1200 basechar 0
@@ -10549,10 +10549,10 @@ StartChar: wilya.nofin
 Encoding: 243 -1 171
 Width: 1300
 Flags: W
+AnchorPoint: "shook" 950 100 basechar 0
 AnchorPoint: "TehtaAbove" 755 1200 basechar 0
 AnchorPoint: "Inside" 567 450 basechar 0
 AnchorPoint: "TehtaBelow" 412 -250 basechar 0
-AnchorPoint: "shook" 1130 750 basechar 0
 AnchorPoint: "tehta_contact_down" 360 50 basechar 0
 AnchorPoint: "tehta_contact_up" 390 700 basechar 0
 LayerCount: 2
@@ -14802,9 +14802,9 @@ StartChar: anna_sindarinwa
 Encoding: 127 57397 255
 Width: 1207
 Flags: W
+AnchorPoint: "shook" 880 100 basechar 0
 AnchorPoint: "tehta_contact_up" 270 700 basechar 0
 AnchorPoint: "tehta_contact_down" 340 50 basechar 0
-AnchorPoint: "shook" 1156 800 basechar 0
 AnchorPoint: "TehtaBelow" 370 -250 basechar 0
 AnchorPoint: "Inside" 525 450 basechar 0
 AnchorPoint: "TehtaAbove" 843 1200 basechar 0
