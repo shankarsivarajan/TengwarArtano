@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1107308838
-ModificationTime: 1684612229
+ModificationTime: 1684612748
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2481,9 +2481,9 @@ StartChar: wilya
 Encoding: 98 57367 27
 Width: 1241
 Flags: W
-AnchorPoint: "shook" 900 100 basechar 0
 AnchorPoint: "tehta_contact_up" 352 700 basechar 0
 AnchorPoint: "tehta_contact_down" 322 50 basechar 0
+AnchorPoint: "shook" 1142 800 basechar 0
 AnchorPoint: "TehtaBelow" 374 -250 basechar 0
 AnchorPoint: "Inside" 529 450 basechar 0
 AnchorPoint: "TehtaAbove" 717 1200 basechar 0
@@ -10549,10 +10549,10 @@ StartChar: wilya.nofin
 Encoding: 243 -1 171
 Width: 1300
 Flags: W
-AnchorPoint: "shook" 950 100 basechar 0
 AnchorPoint: "TehtaAbove" 755 1200 basechar 0
 AnchorPoint: "Inside" 567 450 basechar 0
 AnchorPoint: "TehtaBelow" 412 -250 basechar 0
+AnchorPoint: "shook" 1130 750 basechar 0
 AnchorPoint: "tehta_contact_down" 360 50 basechar 0
 AnchorPoint: "tehta_contact_up" 390 700 basechar 0
 LayerCount: 2
